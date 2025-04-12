@@ -1,0 +1,1545 @@
+2025-04-11 16:57:33,672 - uvicorn.error - INFO - Started server process [383798]
+2025-04-11 16:57:33,673 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-11 16:57:33,673 - lightrag - INFO - Process 383798 KV load full_docs with 0 records
+2025-04-11 16:57:33,674 - lightrag - INFO - Process 383798 KV load text_chunks with 0 records
+2025-04-11 16:57:33,676 - lightrag - INFO - Process 383798 KV load llm_response_cache with 0 records
+2025-04-11 16:57:33,677 - lightrag - INFO - Process 383798 doc status load doc_status with 0 records
+2025-04-11 16:57:33,780 - lightrag - INFO - Chunk-entity-relation at bolt://192.168.215.3:7687 not found. try to create specified database.
+2025-04-11 16:57:33,819 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-04-11 16:57:33,823 - lightrag - INFO - Connected to None at bolt://192.168.215.3:7687
+2025-04-11 16:57:33,834 - uvicorn.error - INFO - Application startup complete.
+2025-04-11 16:57:33,835 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-11 16:57:37,700 - uvicorn.access - INFO - 127.0.0.1:49286 - "GET / HTTP/1.1" 307
+2025-04-11 16:57:37,707 - uvicorn.access - INFO - 127.0.0.1:49286 - "GET /webui HTTP/1.1" 307
+2025-04-11 16:57:37,776 - uvicorn.access - INFO - 127.0.0.1:49286 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 16:57:37,789 - uvicorn.access - INFO - 127.0.0.1:49298 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 200
+2025-04-11 16:57:38,158 - uvicorn.access - INFO - 127.0.0.1:49286 - "GET /auth-status HTTP/1.1" 200
+2025-04-11 16:57:38,458 - uvicorn.access - INFO - 127.0.0.1:49298 - "GET /docs HTTP/1.1" 200
+2025-04-11 16:57:38,619 - uvicorn.access - INFO - 127.0.0.1:49298 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 16:57:38,887 - uvicorn.access - INFO - 127.0.0.1:49286 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 16:57:39,236 - lightrag - INFO - Subgraph query successful | Node count: 908 | Edge count: 716
+2025-04-11 16:57:39,324 - uvicorn.access - INFO - 127.0.0.1:49286 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 16:57:42,630 - uvicorn.access - INFO - 127.0.0.1:49286 - "POST /query/stream HTTP/1.1" 200
+2025-04-11 16:57:56,342 - uvicorn.access - INFO - 127.0.0.1:37326 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 16:57:56,853 - uvicorn.access - INFO - 127.0.0.1:37340 - "GET /docs HTTP/1.1" 200
+2025-04-11 16:57:56,909 - uvicorn.access - INFO - 127.0.0.1:37340 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 16:57:57,102 - uvicorn.access - INFO - 127.0.0.1:37326 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 16:57:57,364 - lightrag - INFO - Subgraph query successful | Node count: 908 | Edge count: 716
+2025-04-11 16:57:57,463 - uvicorn.access - INFO - 127.0.0.1:37326 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 16:58:46,398 - uvicorn.access - INFO - 127.0.0.1:59402 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 16:58:46,577 - uvicorn.access - INFO - 127.0.0.1:59402 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 16:59:14,746 - uvicorn.access - INFO - 127.0.0.1:59402 - "POST /documents/upload HTTP/1.1" 200
+2025-04-11 17:02:17,008 - uvicorn.error - INFO - Started server process [387520]
+2025-04-11 17:02:17,009 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-11 17:02:17,010 - lightrag - INFO - Process 387520 KV load full_docs with 0 records
+2025-04-11 17:02:17,010 - lightrag - INFO - Process 387520 KV load text_chunks with 0 records
+2025-04-11 17:02:17,012 - lightrag - INFO - Process 387520 KV load llm_response_cache with 0 records
+2025-04-11 17:02:17,012 - lightrag - INFO - Process 387520 doc status load doc_status with 0 records
+2025-04-11 17:02:17,227 - lightrag - INFO - Chunk-entity-relation at bolt://192.168.215.3:7687 not found. try to create specified database.
+2025-04-11 17:02:17,321 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-04-11 17:02:17,420 - lightrag - INFO - Connected to None at bolt://192.168.215.3:7687
+2025-04-11 17:02:17,433 - uvicorn.error - INFO - Application startup complete.
+2025-04-11 17:02:17,434 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-11 17:02:20,990 - uvicorn.access - INFO - 127.0.0.1:51374 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 17:02:21,050 - uvicorn.access - INFO - 127.0.0.1:51390 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 17:02:21,559 - uvicorn.access - INFO - 127.0.0.1:51374 - "GET /docs HTTP/1.1" 200
+2025-04-11 17:02:21,756 - uvicorn.access - INFO - 127.0.0.1:51374 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 17:02:28,905 - uvicorn.access - INFO - 127.0.0.1:51374 - "POST /documents/upload HTTP/1.1" 200
+2025-04-11 17:02:36,252 - lightrag - INFO - Process 387520 KV writting 0 records to text_chunks
+2025-04-11 17:02:36,254 - lightrag - INFO - Process 387520 drop text_chunks
+2025-04-11 17:02:36,255 - lightrag - INFO - Process 387520 KV writting 0 records to full_docs
+2025-04-11 17:02:36,255 - lightrag - INFO - Process 387520 drop full_docs
+2025-04-11 17:02:36,256 - lightrag - INFO - Process 387520 drop entities(file:/root/Documents/LightRAG/rag_storage/vdb_entities.json)
+2025-04-11 17:02:36,256 - lightrag - INFO - Process 387520 drop relationships(file:/root/Documents/LightRAG/rag_storage/vdb_relationships.json)
+2025-04-11 17:02:36,257 - lightrag - INFO - Process 387520 drop chunks(file:/root/Documents/LightRAG/rag_storage/vdb_chunks.json)
+2025-04-11 17:02:36,259 - lightrag - INFO - Process 387520 doc status writting 0 records to doc_status
+2025-04-11 17:02:36,260 - lightrag - INFO - Process 387520 drop doc_status
+2025-04-11 17:02:36,289 - lightrag - INFO - Process 387520 drop Neo4j database None
+2025-04-11 17:02:36,290 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-11 17:02:36,290 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-11 17:02:36,290 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-11 17:02:36,291 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-11 17:02:36,291 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-11 17:02:36,291 - lightrag - INFO - Successfully dropped Neo4JStorage
+2025-04-11 17:02:36,291 - lightrag - INFO - Successfully dropped JsonDocStatusStorage
+2025-04-11 17:02:36,294 - uvicorn.access - INFO - 127.0.0.1:51374 - "DELETE /documents HTTP/1.1" 200
+2025-04-11 17:02:36,305 - lightrag - INFO - Cleared all cache
+2025-04-11 17:02:36,306 - uvicorn.access - INFO - 127.0.0.1:51374 - "POST /documents/clear_cache HTTP/1.1" 200
+2025-04-11 17:02:39,872 - uvicorn.access - INFO - 127.0.0.1:51374 - "POST /documents/upload HTTP/1.1" 200
+2025-04-11 17:04:13,575 - uvicorn.error - INFO - Started server process [389019]
+2025-04-11 17:04:13,575 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-11 17:04:13,577 - lightrag - INFO - Process 389019 KV load full_docs with 0 records
+2025-04-11 17:04:13,577 - lightrag - INFO - Process 389019 KV load text_chunks with 0 records
+2025-04-11 17:04:13,579 - lightrag - INFO - Process 389019 KV load llm_response_cache with 0 records
+2025-04-11 17:04:13,580 - lightrag - INFO - Process 389019 doc status load doc_status with 0 records
+2025-04-11 17:04:13,652 - lightrag - INFO - Chunk-entity-relation at bolt://192.168.215.3:7687 not found. try to create specified database.
+2025-04-11 17:04:13,694 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-04-11 17:04:13,698 - lightrag - INFO - Connected to None at bolt://192.168.215.3:7687
+2025-04-11 17:04:13,709 - uvicorn.error - INFO - Application startup complete.
+2025-04-11 17:04:13,711 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-11 17:04:14,142 - uvicorn.access - INFO - 127.0.0.1:48212 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 17:04:14,828 - uvicorn.access - INFO - 127.0.0.1:48212 - "GET /docs HTTP/1.1" 200
+2025-04-11 17:04:15,045 - uvicorn.access - INFO - 127.0.0.1:48212 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 17:04:21,861 - uvicorn.access - INFO - 127.0.0.1:48212 - "POST /documents/upload HTTP/1.1" 200
+2025-04-11 17:04:22,096 - lightrag - INFO - Process 389019 doc status writting 1 records to doc_status
+2025-04-11 17:04:22,098 - lightrag - INFO - Stored 1 new unique documents
+2025-04-11 17:04:22,098 - lightrag - INFO - Successfully fetched and enqueued file: 田健翔的简历.pdf
+2025-04-11 17:04:22,099 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-11 17:04:22,100 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-11 17:04:22,499 - lightrag - INFO - Process 389019 doc status writting 1 records to doc_status
+2025-04-11 17:04:55,988 - lightrag - INFO -  == LLM cache == saving e57c95e2ac3350a8d99703888f32e569
+2025-04-11 17:05:39,547 - lightrag - INFO -  == LLM cache == saving 429d43aee77ceaf5d8ea09b86983b9e7
+2025-04-11 17:05:39,551 - lightrag - INFO - Chk 1/1: extracted 15 Ent + 10 Rel (deduplicated)
+2025-04-11 17:05:41,773 - lightrag - INFO - Extracted 15 entities + 10 relationships (total)
+2025-04-11 17:05:41,774 - lightrag - INFO - Process 389019 doc status writting 1 records to doc_status
+2025-04-11 17:05:41,775 - lightrag - INFO - Process 389019 KV writting 1 records to full_docs
+2025-04-11 17:05:41,775 - lightrag - INFO - Process 389019 KV writting 1 records to text_chunks
+2025-04-11 17:05:41,775 - lightrag - INFO - Process 389019 KV writting 2 records to llm_response_cache
+2025-04-11 17:05:41,785 - lightrag - INFO - In memory DB persist to disk
+2025-04-11 17:05:41,786 - lightrag - INFO - Completed batch 1 of 1.
+2025-04-11 17:05:41,786 - lightrag - INFO - Document processing pipeline completed
+2025-04-11 17:05:50,633 - uvicorn.access - INFO - 127.0.0.1:48212 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 17:05:50,714 - lightrag - INFO - Subgraph query successful | Node count: 15 | Edge count: 10
+2025-04-11 17:05:50,716 - uvicorn.access - INFO - 127.0.0.1:48212 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 17:07:08,759 - uvicorn.access - INFO - 127.0.0.1:53594 - "POST /documents/upload HTTP/1.1" 200
+2025-04-11 17:08:20,571 - uvicorn.error - INFO - Started server process [391670]
+2025-04-11 17:08:20,572 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-11 17:08:20,573 - lightrag - INFO - Process 391670 KV load full_docs with 1 records
+2025-04-11 17:08:20,574 - lightrag - INFO - Process 391670 KV load text_chunks with 1 records
+2025-04-11 17:08:20,577 - lightrag - INFO - Process 391670 KV load llm_response_cache with 2 records
+2025-04-11 17:08:20,578 - lightrag - INFO - Process 391670 doc status load doc_status with 1 records
+2025-04-11 17:08:20,716 - lightrag - INFO - Chunk-entity-relation at bolt://192.168.215.3:7687 not found. try to create specified database.
+2025-04-11 17:08:20,787 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-04-11 17:08:20,792 - lightrag - INFO - Connected to None at bolt://192.168.215.3:7687
+2025-04-11 17:08:20,809 - uvicorn.error - INFO - Application startup complete.
+2025-04-11 17:08:20,811 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-11 17:08:31,340 - uvicorn.access - INFO - 127.0.0.1:55178 - "POST /documents/upload HTTP/1.1" 200
+2025-04-11 17:09:51,667 - uvicorn.error - INFO - Started server process [393061]
+2025-04-11 17:09:51,668 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-11 17:09:51,669 - lightrag - INFO - Process 393061 KV load full_docs with 1 records
+2025-04-11 17:09:51,670 - lightrag - INFO - Process 393061 KV load text_chunks with 1 records
+2025-04-11 17:09:51,673 - lightrag - INFO - Process 393061 KV load llm_response_cache with 2 records
+2025-04-11 17:09:51,673 - lightrag - INFO - Process 393061 doc status load doc_status with 1 records
+2025-04-11 17:09:51,805 - lightrag - INFO - Chunk-entity-relation at bolt://192.168.215.3:7687 not found. try to create specified database.
+2025-04-11 17:09:51,899 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-04-11 17:09:51,907 - lightrag - INFO - Connected to None at bolt://192.168.215.3:7687
+2025-04-11 17:09:51,930 - uvicorn.error - INFO - Application startup complete.
+2025-04-11 17:09:51,932 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-11 17:09:53,734 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET / HTTP/1.1" 307
+2025-04-11 17:09:53,744 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET /webui HTTP/1.1" 307
+2025-04-11 17:09:53,777 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 17:09:53,870 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 17:09:54,278 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET /auth-status HTTP/1.1" 200
+2025-04-11 17:09:54,662 - uvicorn.access - INFO - 127.0.0.1:42580 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 17:09:54,703 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET /docs HTTP/1.1" 200
+2025-04-11 17:09:54,842 - lightrag - INFO - Subgraph query successful | Node count: 15 | Edge count: 10
+2025-04-11 17:09:54,844 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 17:09:54,938 - uvicorn.access - INFO - 127.0.0.1:42588 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 17:10:00,192 - uvicorn.access - INFO - 127.0.0.1:42588 - "POST /documents/upload HTTP/1.1" 200
+2025-04-11 17:19:51,753 - lightrag - INFO - Process 393061 doc status writting 2 records to doc_status
+2025-04-11 17:19:51,786 - lightrag - INFO - Stored 1 new unique documents
+2025-04-11 17:19:53,578 - lightrag - INFO - Successfully fetched and enqueued file: 危险化学品安全技术全书-第三版.pdf
+2025-04-11 17:20:01,029 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-11 17:20:01,030 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-11 17:20:02,711 - lightrag - INFO - Process 393061 doc status writting 2 records to doc_status
+2025-04-11 17:20:23,074 - uvicorn.access - INFO - 127.0.0.1:39636 - "POST /documents/scan HTTP/1.1" 200
+2025-04-11 17:20:23,090 - lightrag - INFO - Found 1 new files to index.
+2025-04-11 17:20:23,090 - lightrag - INFO - Processing batch 1/1 with 1 files
+2025-04-11 17:36:44,057 - lightrag - INFO - No new unique documents were found.
+2025-04-11 17:36:46,201 - lightrag - INFO - Successfully fetched and enqueued file: 危险化学品安全技术全书-第三版.pdf
+2025-04-11 17:36:54,079 - lightrag - INFO - Another process is already processing the document queue. Request queued.
+2025-04-11 17:36:57,845 - lightrag - INFO - Processed 1/1 files (100.0%)
+2025-04-11 17:37:24,394 - lightrag - INFO -  == LLM cache == saving 372fe846d9accd89f94fd3e7817913ee
+2025-04-11 17:37:24,398 - lightrag - INFO -  == LLM cache == saving b78ace7b8fb8dc5681cfafd24260e174
+2025-04-11 17:37:24,401 - lightrag - INFO -  == LLM cache == saving 9670c6e48049185cd19246c885bf7a8c
+2025-04-11 17:37:24,404 - lightrag - INFO -  == LLM cache == saving 7db19fec35af050e93588e1734fa1aa5
+2025-04-11 17:37:24,503 - uvicorn.access - INFO - 127.0.0.1:37730 - "GET / HTTP/1.1" 307
+2025-04-11 17:37:25,038 - uvicorn.access - INFO - 127.0.0.1:46668 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 17:37:25,201 - uvicorn.access - INFO - 127.0.0.1:55838 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 17:37:26,115 - uvicorn.access - INFO - 127.0.0.1:55838 - "GET /docs HTTP/1.1" 200
+2025-04-11 17:37:27,758 - uvicorn.access - INFO - 127.0.0.1:46668 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 17:37:41,081 - uvicorn.access - INFO - 127.0.0.1:45776 - "GET /docs HTTP/1.1" 200
+2025-04-11 17:37:42,098 - uvicorn.access - INFO - 127.0.0.1:46668 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 17:38:00,728 - lightrag - INFO -  == LLM cache == saving 1866e41eb8dfe6c95bb6f9e22b8550bf
+2025-04-11 17:38:10,559 - lightrag - INFO -  == LLM cache == saving bab9d28b5377e9c63c93151e7e846829
+2025-04-11 17:38:12,119 - lightrag - INFO -  == LLM cache == saving dab19150ebab58d78e367a5f01f68c72
+2025-04-11 17:38:14,479 - lightrag - INFO -  == LLM cache == saving 932bc702538e1f278d93e45fd607c4cd
+2025-04-11 17:38:51,847 - lightrag - INFO -  == LLM cache == saving dabba819d4890e25e4f55879be272d94
+2025-04-11 17:39:12,408 - lightrag - INFO -  == LLM cache == saving c9284dbbbb8ff5d1369823ee4dd8d354
+2025-04-11 17:39:36,248 - lightrag - INFO -  == LLM cache == saving efc3f5f33afd5829add219640e636b09
+2025-04-11 17:40:15,534 - lightrag - INFO -  == LLM cache == saving 87adf253ac1a2a29d8a1c8ec78f2b9a6
+2025-04-11 17:40:16,967 - lightrag - INFO -  == LLM cache == saving 44cce707a23fcb943bdb2a31f09dc07d
+2025-04-11 17:40:44,334 - lightrag - INFO -  == LLM cache == saving 338eb43fd74f363ab1d308b7df2f2cd0
+2025-04-11 17:41:26,968 - lightrag - INFO -  == LLM cache == saving 7f305c64ab8595bb26492ddb33be3ac0
+2025-04-11 17:41:52,721 - lightrag - INFO -  == LLM cache == saving a3fe99c7a1959f4b6a2f65df76a29941
+2025-04-11 17:41:58,433 - lightrag - INFO -  == LLM cache == saving 4ea1271d1c2ded00f9dbc2d0cf819c80
+2025-04-11 17:42:31,312 - lightrag - INFO -  == LLM cache == saving dd44ddb755655318616581aef714807e
+2025-04-11 17:42:44,590 - lightrag - INFO -  == LLM cache == saving 1f8cb0bb3e9707bd70b67d40b70110fa
+2025-04-11 17:43:13,269 - lightrag - INFO -  == LLM cache == saving 502cc4ad26711e2c5fc5e925e72ba4a0
+2025-04-11 17:43:27,927 - lightrag - INFO -  == LLM cache == saving fb4447137a268d058f52c2f6e86d3c7c
+2025-04-11 17:44:02,177 - lightrag - INFO -  == LLM cache == saving fba212e682c676e08836274f8014f9ee
+2025-04-11 17:44:27,384 - lightrag - INFO -  == LLM cache == saving ee24191af270c91da9bec47d907df65c
+2025-04-11 17:44:44,181 - lightrag - INFO -  == LLM cache == saving f4510158c762bcc569e34ccee5cf8ceb
+2025-04-11 17:45:04,099 - lightrag - INFO -  == LLM cache == saving 27a83a963c999ce9195bd0aba31bbabb
+2025-04-11 17:45:12,854 - lightrag - INFO -  == LLM cache == saving f04dcc255d25a7edcf6e362d585dcd46
+2025-04-11 17:45:17,381 - lightrag - INFO -  == LLM cache == saving 43bf8acfc8ac7cedfd16d001b27bd72e
+2025-04-11 17:46:01,784 - lightrag - INFO -  == LLM cache == saving 7455fd7d97d9bf20b892fb991631bc33
+2025-04-11 17:46:35,152 - uvicorn.access - INFO - 127.0.0.1:39892 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 17:46:35,203 - uvicorn.access - INFO - 127.0.0.1:39892 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 17:46:35,216 - uvicorn.access - INFO - 127.0.0.1:40362 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 17:46:35,259 - uvicorn.access - INFO - 127.0.0.1:40364 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 17:46:35,727 - uvicorn.access - INFO - 127.0.0.1:39892 - "GET /docs HTTP/1.1" 200
+2025-04-11 17:46:35,811 - uvicorn.access - INFO - 127.0.0.1:39892 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 17:47:07,979 - lightrag - INFO -  == LLM cache == saving fd4a0dd6473d160d8681ee3b3f215362
+2025-04-11 17:47:11,660 - lightrag - INFO -  == LLM cache == saving bd2759ff4b19c81dc759df29dea5e0b4
+2025-04-11 17:47:53,799 - lightrag - INFO -  == LLM cache == saving c8d2dfb33db4d77467f32aa382a91dec
+2025-04-11 17:48:05,961 - lightrag - INFO -  == LLM cache == saving 647efbde5454d8bc8216aad1317fea4c
+2025-04-11 17:48:17,782 - lightrag - INFO -  == LLM cache == saving 82c294d958c7c13a5f91ae481dafe780
+2025-04-11 17:48:31,109 - lightrag - INFO -  == LLM cache == saving d6e0fe6b1c723bebd8949cbe9e947afe
+2025-04-11 17:49:18,283 - lightrag - INFO -  == LLM cache == saving 976f0fa508207539978d694311983a8c
+2025-04-11 17:49:39,406 - lightrag - INFO -  == LLM cache == saving 3a2dabd918263ada17c297a7e1e41382
+2025-04-11 17:49:51,321 - lightrag - INFO -  == LLM cache == saving 9f586c00c9f7cef9ebcef9e761626f5f
+2025-04-11 17:50:08,441 - lightrag - INFO -  == LLM cache == saving 051f60a036d22680ccc513004862a0fa
+2025-04-11 17:50:22,764 - lightrag - INFO -  == LLM cache == saving 62bec623beb5156eaf567fe9fdf2e105
+2025-04-11 17:50:44,994 - lightrag - INFO -  == LLM cache == saving a1d45af994bb62c640d8c994dc025d84
+2025-04-11 17:51:40,015 - lightrag - INFO -  == LLM cache == saving 5dd7a17624459edb9844ba3ea028f6d5
+2025-04-11 17:51:58,241 - uvicorn.access - INFO - 127.0.0.1:35976 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 17:51:58,623 - uvicorn.access - INFO - 127.0.0.1:35976 - "GET /docs HTTP/1.1" 200
+2025-04-11 17:51:58,717 - uvicorn.access - INFO - 127.0.0.1:35976 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 17:52:33,706 - lightrag - INFO -  == LLM cache == saving 1884cf5cdf32e8c993c69ecc2843fb0e
+2025-04-11 17:52:44,382 - lightrag - INFO -  == LLM cache == saving f75e7b0761f6861ac7525017e283d675
+2025-04-11 17:52:49,518 - lightrag - INFO -  == LLM cache == saving a3654ffd38432580794e4139e8607695
+2025-04-11 17:53:40,398 - lightrag - INFO -  == LLM cache == saving 49e948a5d5887be2cfc5e8f478783a33
+2025-04-11 17:54:25,552 - lightrag - INFO -  == LLM cache == saving 08c12e0eff7cb8e69b4c242cf940d845
+2025-04-11 17:54:36,476 - lightrag - INFO -  == LLM cache == saving 6d895b4674291713c260ed9b0f2dc5a3
+2025-04-11 17:55:00,699 - lightrag - INFO -  == LLM cache == saving 4496b7e69ff4bd556e72853e3f3c3753
+2025-04-11 17:55:06,455 - lightrag - INFO -  == LLM cache == saving 72fabbdafb02ed96345a2cee44d69a67
+2025-04-11 17:55:22,223 - lightrag - INFO -  == LLM cache == saving b4a6dfb5aee84b5d6cb076043ea279d0
+2025-04-11 17:55:54,746 - lightrag - INFO -  == LLM cache == saving c827851c9c1bdb2eb96dcd6ea8343ffe
+2025-04-11 17:56:42,421 - lightrag - INFO -  == LLM cache == saving 0d01e8b612c161bb82007f0066bf6947
+2025-04-11 17:56:43,124 - lightrag - INFO -  == LLM cache == saving 29de72686eceeee91340ee301fe9627d
+2025-04-11 17:56:45,622 - uvicorn.access - INFO - 127.0.0.1:50610 - "POST /documents/scan HTTP/1.1" 200
+2025-04-11 17:56:45,651 - lightrag - INFO - Found 1 new files to index.
+2025-04-11 17:56:45,651 - lightrag - INFO - Processing batch 1/1 with 1 files
+2025-04-11 18:04:58,440 - lightrag - INFO - No new unique documents were found.
+2025-04-11 18:04:58,442 - lightrag - INFO - Successfully fetched and enqueued file: 危险化学品安全技术全书-第三版.pdf
+2025-04-11 18:04:58,443 - lightrag - INFO - Another process is already processing the document queue. Request queued.
+2025-04-11 18:04:58,444 - lightrag - INFO - Processed 1/1 files (100.0%)
+2025-04-11 18:04:58,746 - lightrag - INFO -  == LLM cache == saving b6d738994b552d21fd552d3ff8a7510d
+2025-04-11 18:04:58,749 - lightrag - INFO -  == LLM cache == saving 0dd1740e07b2402755276f72bb4d91d4
+2025-04-11 18:04:58,753 - lightrag - INFO -  == LLM cache == saving c4a3d7457485cfeba0772e82cb84d83a
+2025-04-11 18:04:58,756 - lightrag - INFO -  == LLM cache == saving e517f5557fbc095d47b687333df5ff7d
+2025-04-11 18:04:59,091 - uvicorn.access - INFO - 127.0.0.1:40656 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 18:04:59,261 - uvicorn.access - INFO - 127.0.0.1:35806 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 18:04:59,948 - uvicorn.access - INFO - 127.0.0.1:35806 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:00,062 - uvicorn.access - INFO - 127.0.0.1:40656 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:05:04,716 - uvicorn.access - INFO - 127.0.0.1:35806 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:04,779 - uvicorn.access - INFO - 127.0.0.1:40656 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:05:13,314 - uvicorn.access - INFO - 127.0.0.1:40656 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 18:05:13,679 - uvicorn.access - INFO - 127.0.0.1:40656 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 18:05:28,056 - uvicorn.access - INFO - 127.0.0.1:40844 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:28,152 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:05:29,113 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:29,175 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:05:35,672 - lightrag - INFO -  == LLM cache == saving 641d2ff574a31c791c87fca92782c2f6
+2025-04-11 18:05:41,947 - uvicorn.access - INFO - 127.0.0.1:36560 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:42,031 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:05:42,873 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:42,940 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:05:43,638 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:43,693 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:05:44,498 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:05:44,615 - uvicorn.access - INFO - 127.0.0.1:55640 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:06:27,894 - lightrag - INFO -  == LLM cache == saving 41a1fb29179d32c98ab1f7bf409be4ee
+2025-04-11 18:06:39,564 - lightrag - INFO -  == LLM cache == saving 369e096e8c3b8220a827e6e2f8504168
+2025-04-11 18:07:36,819 - lightrag - INFO -  == LLM cache == saving ffa074aa0a6335cacd07a38ff78613ec
+2025-04-11 18:08:06,094 - lightrag - INFO -  == LLM cache == saving f0f47e77e887648bae8bf934e8f8ad03
+2025-04-11 18:08:50,734 - lightrag - INFO -  == LLM cache == saving ab640c7ce82aa593b860f2be725ba9eb
+2025-04-11 18:08:55,628 - lightrag - INFO -  == LLM cache == saving 840b0a6f99a38a26180141d5a91db3af
+2025-04-11 18:09:27,166 - lightrag - INFO -  == LLM cache == saving 692fbd4ab8f629b05f3d6f8b39bc2dd3
+2025-04-11 18:09:27,365 - lightrag - INFO -  == LLM cache == saving 2ac7f986d3ff413cb8dc2b4ff3141597
+2025-04-11 18:10:10,220 - lightrag - INFO -  == LLM cache == saving 7a74cb85dcf8a6026c0cf955a7883840
+2025-04-11 18:10:42,122 - lightrag - INFO -  == LLM cache == saving 60e03e7fc7ac8d8c8e76c971c25eef34
+2025-04-11 18:10:53,364 - lightrag - INFO -  == LLM cache == saving d1ff2c216389a938a88225cdb2694cd3
+2025-04-11 18:10:59,257 - uvicorn.access - INFO - 127.0.0.1:33620 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:10:59,442 - uvicorn.access - INFO - 127.0.0.1:33620 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:11:44,028 - lightrag - INFO -  == LLM cache == saving b86088f8f0820a09806dbc1e9f8abc15
+2025-04-11 18:11:58,671 - lightrag - INFO -  == LLM cache == saving e2e62310d2e85550993ea5e10c0b4c93
+2025-04-11 18:11:58,779 - lightrag - INFO -  == LLM cache == saving 88cdf6b99ba4ce531b40d72bc5b33e1e
+2025-04-11 18:12:19,379 - lightrag - INFO -  == LLM cache == saving 6847e95cf100a0ce2eb49ce4a316b15a
+2025-04-11 18:12:46,859 - lightrag - INFO -  == LLM cache == saving 764323dec774d06b9c0b1eac383c67ec
+2025-04-11 18:13:08,786 - lightrag - INFO -  == LLM cache == saving 209647ae48aec19a6e9fe0f82cbc6cd2
+2025-04-11 18:13:29,904 - lightrag - INFO -  == LLM cache == saving cea09497e29c67e0527cc3eff5fbab72
+2025-04-11 18:13:38,497 - uvicorn.access - INFO - 127.0.0.1:41258 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 18:13:39,076 - uvicorn.access - INFO - 127.0.0.1:41248 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:13:39,188 - uvicorn.access - INFO - 127.0.0.1:41258 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:14:13,967 - lightrag - INFO -  == LLM cache == saving ce664f2773770f3225177857faec6408
+2025-04-11 18:14:41,309 - lightrag - INFO -  == LLM cache == saving ec88a59a9f135d8118817181e29b38f5
+2025-04-11 18:15:10,424 - lightrag - INFO -  == LLM cache == saving ff91d47bb7b1996c7a7c4d86cd5ca02e
+2025-04-11 18:15:12,066 - lightrag - INFO -  == LLM cache == saving b72a67d6012e6c312c630dc596f0f515
+2025-04-11 18:15:19,785 - lightrag - INFO -  == LLM cache == saving 165abaebdad72434dac1584af320f773
+2025-04-11 18:15:58,103 - lightrag - INFO -  == LLM cache == saving 48de9e76c73b4b29362f7c0b72bb2487
+2025-04-11 18:16:29,585 - lightrag - INFO -  == LLM cache == saving feea33cf4ce1df3abbe5f7bb225fa794
+2025-04-11 18:17:02,531 - lightrag - INFO -  == LLM cache == saving 2757b5c83dba52793272ab9bd75b728f
+2025-04-11 18:17:03,944 - lightrag - INFO -  == LLM cache == saving 9815a79a88a868923b3e9c5647624a18
+2025-04-11 18:17:04,714 - lightrag - INFO -  == LLM cache == saving 5fcb4a4c87bc10239b11efaf77960b71
+2025-04-11 18:18:02,312 - lightrag - INFO -  == LLM cache == saving e5fe5f009782723368b92f3930e88435
+2025-04-11 18:18:46,100 - lightrag - INFO -  == LLM cache == saving 8bac912af97eb168e11b61bb12be0b46
+2025-04-11 18:18:49,532 - lightrag - INFO -  == LLM cache == saving 03ece8559249bd0642a28fab247ad115
+2025-04-11 18:18:50,426 - lightrag - INFO -  == LLM cache == saving c01838339ea540246b4703e125fbba8b
+2025-04-11 18:19:09,022 - lightrag - INFO -  == LLM cache == saving 1545d0a47422905ef7463ce2fbfc0725
+2025-04-11 18:19:23,285 - uvicorn.access - INFO - 127.0.0.1:33088 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 18:19:23,786 - uvicorn.access - INFO - 127.0.0.1:33094 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:19:23,953 - uvicorn.access - INFO - 127.0.0.1:33088 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:19:45,505 - lightrag - INFO -  == LLM cache == saving 828ecb405c9ec5114650e94dd10546a8
+2025-04-11 18:20:20,758 - lightrag - INFO -  == LLM cache == saving 9613ab14b517d9b379680ca7b3eaccce
+2025-04-11 18:20:47,030 - lightrag - INFO -  == LLM cache == saving d96ee17a197c023e41832880f59d2f31
+2025-04-11 18:21:14,486 - lightrag - INFO -  == LLM cache == saving 8adc866c17eb7bb6906f9fdfa9ff7c36
+2025-04-11 18:21:41,983 - lightrag - INFO -  == LLM cache == saving e5d804c5a404f316b7e73423ecafa60f
+2025-04-11 18:21:58,512 - lightrag - INFO -  == LLM cache == saving edeebae2547f6dfd1e299147bac133c3
+2025-04-11 18:22:11,757 - lightrag - INFO -  == LLM cache == saving b0afab791d19b0b17ff8cc0706fa341c
+2025-04-11 18:22:24,596 - lightrag - INFO -  == LLM cache == saving f110f4f95ff79b631775236a0d77e3e3
+2025-04-11 18:23:35,306 - lightrag - INFO -  == LLM cache == saving 545a315e5a6b0ee679eb2336412a9c7e
+2025-04-11 18:23:44,471 - lightrag - INFO -  == LLM cache == saving ba7b1eb5bd5b2b35ef35d8da42c733e9
+2025-04-11 18:23:49,543 - lightrag - INFO -  == LLM cache == saving 49a05f3b5bdef1e47c99e630dd1d5633
+2025-04-11 18:24:03,322 - lightrag - INFO -  == LLM cache == saving 1cc928ac738897fd8d2f919d860007dc
+2025-04-11 18:24:04,297 - lightrag - INFO -  == LLM cache == saving 7a6ca09c8b7005c44a5bb4232463e013
+2025-04-11 18:24:28,656 - lightrag - INFO -  == LLM cache == saving 65332cd8f26d4cb567f9c724e9057d01
+2025-04-11 18:24:31,186 - lightrag - INFO -  == LLM cache == saving dd1c4a544a08f1e7091a229ed750994a
+2025-04-11 18:25:12,922 - lightrag - INFO -  == LLM cache == saving 2d2405c20dd3c92e21af937a1eca08e5
+2025-04-11 18:25:39,742 - lightrag - INFO -  == LLM cache == saving d68d6a1ea5f4a32e7d8090aecb9c9695
+2025-04-11 18:25:49,600 - lightrag - INFO -  == LLM cache == saving 063dcd420b7f961e0924354fbb4ebb11
+2025-04-11 18:26:10,857 - lightrag - INFO -  == LLM cache == saving ec4b2700a6cb2b4cb97486ab67c33004
+2025-04-11 18:26:20,609 - lightrag - INFO -  == LLM cache == saving c20da9cb92dda35e280ee4c478d8b10d
+2025-04-11 18:26:43,624 - lightrag - INFO -  == LLM cache == saving 8052afe51502d9a113157e3ddb15f9c4
+2025-04-11 18:26:51,458 - lightrag - INFO -  == LLM cache == saving ad4025c76168eafc822639ca14cb4cf5
+2025-04-11 18:27:01,955 - lightrag - INFO -  == LLM cache == saving a8239ea49c7b26b8f784000cbfeb8cb1
+2025-04-11 18:27:11,410 - lightrag - INFO -  == LLM cache == saving 77e1bb8ed01e7ddbfe4549e37daf3edd
+2025-04-11 18:27:13,852 - lightrag - INFO -  == LLM cache == saving 9d54436d18160a158bacbf31cad4ba8a
+2025-04-11 18:28:42,848 - lightrag - INFO -  == LLM cache == saving b21215efebc98b34b53d209b65c398c3
+2025-04-11 18:28:56,439 - lightrag - INFO -  == LLM cache == saving b4e068af6fde390b0f06400b8c5b5a09
+2025-04-11 18:29:31,658 - lightrag - INFO -  == LLM cache == saving c010ac4cf9052c6522b85944b98cfec8
+2025-04-11 18:29:48,067 - lightrag - INFO -  == LLM cache == saving da4f617cd976f58ad03d4519dc6272f7
+2025-04-11 18:30:04,196 - lightrag - INFO -  == LLM cache == saving d6a0ce2fd134badf1305d20598862086
+2025-04-11 18:30:35,139 - lightrag - INFO -  == LLM cache == saving 3680698a8729f73f6780464c053725d5
+2025-04-11 18:30:39,630 - lightrag - INFO -  == LLM cache == saving 4d8fe034cb8d1410117823d14e3ee72b
+2025-04-11 18:31:06,821 - lightrag - INFO -  == LLM cache == saving 43c90e970862cbc0b26585cd7dbf779c
+2025-04-11 18:31:07,836 - lightrag - INFO -  == LLM cache == saving 315c5acab7645089bff47234c182cf40
+2025-04-11 18:31:38,869 - lightrag - INFO -  == LLM cache == saving e86dd48dafdfb2eb03d2ede475035388
+2025-04-11 18:32:16,859 - lightrag - INFO -  == LLM cache == saving b17aadd89b52b60acfd6a583fc7f78ed
+2025-04-11 18:32:25,299 - lightrag - INFO -  == LLM cache == saving c993f2507f31f321811e1f2262c46a6d
+2025-04-11 18:32:48,443 - lightrag - INFO -  == LLM cache == saving 64bf9ed261822bf7f326ee1ac594378d
+2025-04-11 18:33:33,976 - lightrag - INFO -  == LLM cache == saving 450d21a9f84de502bde75c91ac39e0ab
+2025-04-11 18:33:44,022 - lightrag - INFO -  == LLM cache == saving 986e5dac76e2cc8205bf3f726c46d7c3
+2025-04-11 18:34:10,628 - lightrag - INFO -  == LLM cache == saving 1c79f71daa930b99c4c3f3320dad039d
+2025-04-11 18:34:15,344 - lightrag - INFO -  == LLM cache == saving 2f5f62a6d6fd89e3a679805a8a1740d4
+2025-04-11 18:34:24,675 - lightrag - INFO -  == LLM cache == saving 673d212718aff174815c5825652938a5
+2025-04-11 18:34:27,758 - lightrag - INFO -  == LLM cache == saving 5112a67b9cb4fc20cc9fabca39e91dc6
+2025-04-11 18:34:45,036 - lightrag - INFO -  == LLM cache == saving c08807154dd7676786bbeabcf77f5e1a
+2025-04-11 18:35:06,706 - lightrag - INFO -  == LLM cache == saving 9bc67cc985feb79fe805e6c19ec67292
+2025-04-11 18:35:14,435 - lightrag - INFO -  == LLM cache == saving 38c726a976768460a3425f5c6668b116
+2025-04-11 18:35:27,678 - lightrag - INFO -  == LLM cache == saving 6002e9eb6e674e3bcfa6cda09eb45782
+2025-04-11 18:36:28,335 - lightrag - INFO -  == LLM cache == saving c24f0a05139fe09669a4c2002e6e229e
+2025-04-11 18:36:46,736 - lightrag - INFO -  == LLM cache == saving dc524585f666daa767e56024d91c91cb
+2025-04-11 18:37:03,909 - lightrag - INFO -  == LLM cache == saving 4ea505670acc170133d65e3d39929eab
+2025-04-11 18:37:10,747 - lightrag - INFO -  == LLM cache == saving b6f57b1729a1895aaf473b6b71f3ae31
+2025-04-11 18:37:56,626 - lightrag - INFO -  == LLM cache == saving d55cf936b090ccdf6c44c5be1e11b05c
+2025-04-11 18:38:01,028 - lightrag - INFO -  == LLM cache == saving eee8d05e30799e085caa14d8e07dcbc9
+2025-04-11 18:38:22,628 - lightrag - INFO -  == LLM cache == saving a0a6ab75d088951ba61ce2a1b97d3e3e
+2025-04-11 18:38:31,845 - lightrag - INFO -  == LLM cache == saving 1af751b5c9a31c020dee3fbe1edbd259
+2025-04-11 18:38:38,536 - lightrag - INFO -  == LLM cache == saving ef21632a7e12a65d9b9e7757d63940b2
+2025-04-11 18:38:58,152 - lightrag - INFO -  == LLM cache == saving e0765d2bd095b587d72188aa038e333c
+2025-04-11 18:39:01,029 - lightrag - INFO -  == LLM cache == saving 71cfe51f79b16c278398c73a157684d0
+2025-04-11 18:39:18,484 - lightrag - INFO -  == LLM cache == saving c15363fed3af8c924ac864099a6d9ffe
+2025-04-11 18:39:42,092 - lightrag - INFO -  == LLM cache == saving 68fc932edb3378bf6526927c37bbc61e
+2025-04-11 18:40:00,903 - lightrag - INFO -  == LLM cache == saving 8a8b1a8e59645829ea6f85a46f64b81e
+2025-04-11 18:40:20,082 - lightrag - INFO -  == LLM cache == saving 61fd47414ca5f43f675615427c76a9a0
+2025-04-11 18:40:46,488 - lightrag - INFO -  == LLM cache == saving 51805fcd9855d65c94d95882834506fa
+2025-04-11 18:41:08,741 - lightrag - INFO -  == LLM cache == saving 491b6369b8872e5cb085d005fb48ea68
+2025-04-11 18:41:28,385 - lightrag - INFO -  == LLM cache == saving cc757c7c159009c52f3e37e6391fd2f5
+2025-04-11 18:41:56,982 - lightrag - INFO -  == LLM cache == saving d2fb80f519971622c4c1c48a1eacdd63
+2025-04-11 18:42:11,597 - lightrag - INFO -  == LLM cache == saving e34fc892777b955104773a68a35a0a16
+2025-04-11 18:43:14,677 - lightrag - INFO -  == LLM cache == saving d1241bbc9f88af1c201e00633f5295bc
+2025-04-11 18:43:16,724 - lightrag - INFO -  == LLM cache == saving 257a78519ccc79d9b021d9c5ce4762b6
+2025-04-11 18:43:50,550 - lightrag - INFO -  == LLM cache == saving 33d54cd8ba93108b69ee28f8b563a4f0
+2025-04-11 18:43:53,858 - lightrag - INFO -  == LLM cache == saving 157a8dea68fd74e4357484fedf040149
+2025-04-11 18:44:28,465 - lightrag - INFO -  == LLM cache == saving f133c3bf0c49442346014a13b30277ac
+2025-04-11 18:44:45,924 - lightrag - INFO -  == LLM cache == saving 9e2f00569322bcc3ec718951a4763d88
+2025-04-11 18:45:08,024 - lightrag - INFO -  == LLM cache == saving a93aceb6fd547b6741572c8aca8d1b95
+2025-04-11 18:45:46,322 - lightrag - INFO -  == LLM cache == saving db97dcc4f2b2b910751ea73b1a59134c
+2025-04-11 18:45:58,369 - lightrag - INFO -  == LLM cache == saving e8de7c56cf48106dee34c5d5a49501d3
+2025-04-11 18:46:01,272 - lightrag - INFO -  == LLM cache == saving 804375093ba62001b956e293e5c53efe
+2025-04-11 18:46:45,617 - lightrag - INFO -  == LLM cache == saving 4687e5d7da4c61e9a850073f66931034
+2025-04-11 18:47:24,735 - lightrag - INFO -  == LLM cache == saving c78c52d19e97a6437be90b0bacead6b4
+2025-04-11 18:48:03,487 - lightrag - INFO -  == LLM cache == saving fe9e825ff19fe08ed749fa407da3f867
+2025-04-11 18:48:05,419 - uvicorn.access - INFO - 127.0.0.1:48308 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 18:48:05,427 - uvicorn.access - INFO - 127.0.0.1:48324 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 18:48:05,961 - uvicorn.access - INFO - 127.0.0.1:48324 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:48:06,002 - lightrag - INFO -  == LLM cache == saving e231c4821afb4ea4d39e8b51fd7b105b
+2025-04-11 18:48:06,116 - uvicorn.access - INFO - 127.0.0.1:48308 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:48:31,916 - lightrag - INFO -  == LLM cache == saving 94578e2f81a228c03db8d5ca62584d14
+2025-04-11 18:48:39,406 - lightrag - INFO -  == LLM cache == saving d792d20b96de08c335a1e702a69fb605
+2025-04-11 18:48:41,372 - lightrag - INFO -  == LLM cache == saving 3b6ddae48860ca5b758880914c510210
+2025-04-11 18:48:43,595 - lightrag - INFO -  == LLM cache == saving 5d7e79d041d626c28321973c0d681dd1
+2025-04-11 18:49:15,656 - lightrag - INFO -  == LLM cache == saving 3dfb887120cbf26fba64a79e556d8f57
+2025-04-11 18:49:28,752 - lightrag - INFO -  == LLM cache == saving b4d49db77e2085566f633bbe215619dd
+2025-04-11 18:49:57,300 - lightrag - INFO -  == LLM cache == saving 954f44b6f500c233127353d59dc8ffbf
+2025-04-11 18:50:07,600 - lightrag - INFO -  == LLM cache == saving 454110f83f31d2fbc94c131c42709a5b
+2025-04-11 18:50:15,615 - lightrag - INFO -  == LLM cache == saving ff768d9fcb56e7c557752ab667c79424
+2025-04-11 18:50:41,963 - lightrag - INFO -  == LLM cache == saving 895dc5f0be0465dd6c2900e26444c838
+2025-04-11 18:50:48,093 - lightrag - INFO -  == LLM cache == saving 68aa18dd9eecc4400eb44be48aa165ca
+2025-04-11 18:51:16,726 - lightrag - INFO -  == LLM cache == saving 85ba9ac241ef339c5a2e768ac02a2caf
+2025-04-11 18:51:17,090 - lightrag - INFO -  == LLM cache == saving 31a4419a428f6511ef4922f380988385
+2025-04-11 18:51:26,684 - lightrag - INFO -  == LLM cache == saving 0fe18b649ba7153f4ec4801b10965515
+2025-04-11 18:51:47,164 - lightrag - INFO -  == LLM cache == saving 436a8515ac5f7f993e9118c8748dfa34
+2025-04-11 18:52:36,584 - uvicorn.access - INFO - 127.0.0.1:51924 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:52:36,781 - uvicorn.access - INFO - 127.0.0.1:51924 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 18:52:44,998 - lightrag - INFO -  == LLM cache == saving 869e429cc226772559493eef52cae72a
+2025-04-11 18:52:53,462 - lightrag - INFO -  == LLM cache == saving 11a7b784512cea8473da75de3d886471
+2025-04-11 18:52:54,619 - lightrag - INFO -  == LLM cache == saving 9d28dd99744dfe56ea6ade1c5475bfa3
+2025-04-11 18:53:42,943 - lightrag - INFO -  == LLM cache == saving 83ffba2cd82884a8291725d0aa1d2207
+2025-04-11 18:54:20,054 - lightrag - INFO -  == LLM cache == saving fb135600f61959fc2e160c44e9831633
+2025-04-11 18:54:59,156 - lightrag - INFO -  == LLM cache == saving 95fb1ac252adfa7606c7f76b4b671722
+2025-04-11 18:55:29,101 - lightrag - INFO -  == LLM cache == saving 12a4403097836aca847ded5ffbe51e95
+2025-04-11 18:55:32,364 - lightrag - INFO -  == LLM cache == saving 5a9a1e8891f78ac3e681a9646b91574e
+2025-04-11 18:55:38,401 - lightrag - INFO -  == LLM cache == saving 081f85fd5f4bb6bec11e0fd7462e9fdc
+2025-04-11 18:55:40,792 - lightrag - INFO -  == LLM cache == saving f79a0a60f8350756132b1ed5b4dab813
+2025-04-11 18:56:04,817 - lightrag - INFO -  == LLM cache == saving 0aee2b86109641770bf96bfa5a0af725
+2025-04-11 18:56:36,446 - lightrag - INFO -  == LLM cache == saving 538f3865ca026a1d0171f272bf50dd58
+2025-04-11 18:56:49,777 - lightrag - INFO -  == LLM cache == saving 311f7326e87142e0b6e2606b4441ebec
+2025-04-11 18:57:11,586 - lightrag - INFO -  == LLM cache == saving 9b135a8d4159d8ba7421e080adf90d49
+2025-04-11 18:57:28,535 - lightrag - INFO -  == LLM cache == saving fb314a78f9250ed1cabd690d7436bcea
+2025-04-11 18:58:10,448 - lightrag - INFO -  == LLM cache == saving c830c97446b1a834916521043e86f5e9
+2025-04-11 18:58:47,671 - lightrag - INFO -  == LLM cache == saving c2d26ecc22bfe893bebef687edbe6d5e
+2025-04-11 18:59:32,382 - lightrag - INFO -  == LLM cache == saving 6e16514c93237dfd172a329c9bcf4158
+2025-04-11 18:59:32,712 - lightrag - INFO -  == LLM cache == saving 7f55af5f6848fde85ddb9f3ef7f284c8
+2025-04-11 18:59:33,489 - uvicorn.access - INFO - 127.0.0.1:56050 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 18:59:34,090 - uvicorn.access - INFO - 127.0.0.1:56050 - "GET /docs HTTP/1.1" 200
+2025-04-11 18:59:34,181 - uvicorn.access - INFO - 127.0.0.1:56050 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 19:00:01,207 - lightrag - INFO -  == LLM cache == saving 6e5071011202f9f60678107b0be6a9b0
+2025-04-11 19:00:25,496 - lightrag - INFO -  == LLM cache == saving fa28b2d85695e42171eafd9ee2c6659f
+2025-04-11 19:00:53,785 - lightrag - INFO -  == LLM cache == saving 49c3a0ad037afb0e73ed21f561a32a51
+2025-04-11 19:01:32,833 - lightrag - INFO -  == LLM cache == saving e363f8476a9c9df9e24c3d5f94613e02
+2025-04-11 19:01:34,734 - lightrag - INFO -  == LLM cache == saving 92df7a92577c8d73acb4ea4d125b5ebe
+2025-04-11 19:01:51,715 - lightrag - INFO -  == LLM cache == saving 565046b72fd83b339fc43e6ef2b9b5f0
+2025-04-11 19:02:24,264 - lightrag - INFO -  == LLM cache == saving 97898d23dc18ef8e7ff4b6f3936d8659
+2025-04-11 19:02:31,811 - lightrag - INFO -  == LLM cache == saving d0c8bf57729952d321e73662bf65a317
+2025-04-11 19:03:15,110 - lightrag - INFO -  == LLM cache == saving 4e6c8ade611c86e4ee5236f2dd5338d4
+2025-04-11 19:03:23,183 - lightrag - INFO -  == LLM cache == saving be12cf32465b77954986679089a3eed5
+2025-04-11 19:03:26,944 - lightrag - INFO -  == LLM cache == saving 4d0ec1fea1654d65ea7a6cbd8e190b9b
+2025-04-11 19:03:39,803 - lightrag - INFO -  == LLM cache == saving 86cb9e6446456a918e1a85245c09a999
+2025-04-11 19:03:56,826 - lightrag - INFO -  == LLM cache == saving 374d62cdf397423d665f17fe45f52916
+2025-04-11 19:03:59,124 - lightrag - INFO -  == LLM cache == saving 9fc6624a7454cd08f39b4a093799e490
+2025-04-11 19:04:07,664 - lightrag - INFO -  == LLM cache == saving 779efda8b0a46eff750ca48b36e2a691
+2025-04-11 19:04:20,259 - lightrag - INFO -  == LLM cache == saving 49ce4e1437b79ff0eab9681f77b18c57
+2025-04-11 19:04:22,454 - lightrag - INFO -  == LLM cache == saving 92c7a1d45808b7d1f4166c6d7131fb4a
+2025-04-11 19:04:42,470 - lightrag - INFO -  == LLM cache == saving 820d9ff6c7cf6b741c30c89194de655f
+2025-04-11 19:05:01,328 - lightrag - INFO -  == LLM cache == saving 85f20e010ba3e624dbaa9ad9ef16455b
+2025-04-11 19:05:05,261 - lightrag - INFO -  == LLM cache == saving 88cbf24010cc5c616ed7e82971202cd4
+2025-04-11 19:05:06,224 - lightrag - INFO -  == LLM cache == saving 1ba0237311b1087ccc4fba71d1ae61ec
+2025-04-11 19:05:20,531 - lightrag - INFO -  == LLM cache == saving c267bc1ecc8efe770967005a569a18ee
+2025-04-11 19:05:29,182 - lightrag - INFO -  == LLM cache == saving c3266198a5b01e0c44852cb0f9513146
+2025-04-11 19:05:30,305 - lightrag - INFO -  == LLM cache == saving 22bdc964e5c9dc122f1da8b836e2774d
+2025-04-11 19:05:31,864 - lightrag - INFO -  == LLM cache == saving b7fd7745cbcf9b5c5662df4a97b97cad
+2025-04-11 19:05:44,989 - lightrag - INFO -  == LLM cache == saving 1cb09709cb152cf349e128009069e297
+2025-04-11 19:05:48,079 - lightrag - INFO -  == LLM cache == saving ce7487642cf1de227b58fa337d4ed41b
+2025-04-11 19:05:53,067 - lightrag - INFO -  == LLM cache == saving 4c9a2e659c35441a2434f19a5aeff76c
+2025-04-11 19:06:00,389 - lightrag - INFO -  == LLM cache == saving 811a1f5929d103c96da65d29a75b340b
+2025-04-11 19:06:13,189 - lightrag - INFO -  == LLM cache == saving 113f8cf648d3a5e12be1f04ac28404e6
+2025-04-11 19:06:18,739 - lightrag - INFO -  == LLM cache == saving 340087790abc9c71c89f785d52c0c86f
+2025-04-11 19:06:21,399 - lightrag - INFO -  == LLM cache == saving 77628449df13fdad5828b9fe6cddb296
+2025-04-11 19:07:34,829 - lightrag - INFO -  == LLM cache == saving 88e162fec8dfc07cd514048f8009c160
+2025-04-11 19:07:53,843 - lightrag - INFO -  == LLM cache == saving eca0f2b76ae36517c6d7dd2e3187271e
+2025-04-11 19:08:34,097 - lightrag - INFO -  == LLM cache == saving a94737fdf74069af3800ce3c56bb8355
+2025-04-11 19:08:48,765 - lightrag - INFO -  == LLM cache == saving 5834905853a84991a9e6215a0971d5a7
+2025-04-11 19:09:08,930 - lightrag - INFO -  == LLM cache == saving 32e2505cd0a5a14d3becfbf810c1d4ac
+2025-04-11 19:09:25,510 - lightrag - INFO -  == LLM cache == saving 77ebf96366ee8fa386f6c6e744335f80
+2025-04-11 19:09:33,843 - lightrag - INFO -  == LLM cache == saving 68c28219f25f77831f0d00a2b108aff9
+2025-04-11 19:09:48,608 - lightrag - INFO -  == LLM cache == saving 353ffdc1b4f401a6d20db700aec35638
+2025-04-11 19:10:12,686 - lightrag - INFO -  == LLM cache == saving 432cf2843a48e1fcd380f220105c31cb
+2025-04-11 19:10:47,220 - lightrag - INFO -  == LLM cache == saving c7f3a2695ea97e49652365b20ed43113
+2025-04-11 19:11:12,115 - lightrag - INFO -  == LLM cache == saving 80756c1012e00a6e85435af9f6ac173b
+2025-04-11 19:11:47,141 - lightrag - INFO -  == LLM cache == saving da5dfd3bc98f03ecdaa34aafda202b9c
+2025-04-11 19:12:33,946 - lightrag - INFO -  == LLM cache == saving 751932bf3d7214297d434fa11f17b00c
+2025-04-11 19:12:37,903 - lightrag - INFO -  == LLM cache == saving 370cc4d9cdfc88b2e986a15f178d08bd
+2025-04-11 19:12:41,666 - lightrag - INFO -  == LLM cache == saving ecf3451e8ab6a1a2b4ecc66cfa3a7fe1
+2025-04-11 19:13:51,398 - lightrag - INFO -  == LLM cache == saving e412a3fd678508093428324b892bf6dc
+2025-04-11 19:13:56,995 - lightrag - INFO -  == LLM cache == saving a95c30a408c574626a8f66ac98a028b8
+2025-04-11 19:14:08,466 - lightrag - INFO -  == LLM cache == saving 22cd368d44394c45f64b2e47befe419a
+2025-04-11 19:14:26,291 - lightrag - INFO -  == LLM cache == saving 5fe1fc05bcf6314e0d9f9ebcaed3b80a
+2025-04-11 19:14:41,260 - lightrag - INFO -  == LLM cache == saving 5cbae141def2a8662fd2ee8cd7d7bbb3
+2025-04-11 19:15:10,640 - lightrag - INFO -  == LLM cache == saving fe159c75399ceb8e43ed15ca6e7b4c37
+2025-04-11 19:15:59,696 - lightrag - INFO -  == LLM cache == saving 9a4498bc4ac758de608717577a14c457
+2025-04-11 19:16:46,508 - lightrag - INFO -  == LLM cache == saving da909f28695fe75f820f1c6e4d771127
+2025-04-11 19:17:23,692 - lightrag - INFO -  == LLM cache == saving 26d61c5fe6e540d7cb333cbaa9cf042f
+2025-04-11 19:17:36,616 - lightrag - INFO -  == LLM cache == saving 07eafd939abf91be0ea5ecc6f229ee24
+2025-04-11 19:18:46,751 - lightrag - INFO -  == LLM cache == saving de61ebf80ae33bc86671d353b0c862dd
+2025-04-11 19:18:49,712 - lightrag - INFO -  == LLM cache == saving 4c42e1a036661c7fe6d75974c0ea830e
+2025-04-11 19:18:51,152 - lightrag - INFO -  == LLM cache == saving 1640f4e8986dca3cf02b487e95cc7385
+2025-04-11 19:19:21,357 - lightrag - INFO -  == LLM cache == saving f48782d5d95b10e1bbba0c28403ff7c6
+2025-04-11 19:19:32,520 - lightrag - INFO -  == LLM cache == saving 833b51e3d5af5edafbc836e2f963922c
+2025-04-11 19:20:35,122 - lightrag - INFO -  == LLM cache == saving fa2c0bd4eed44de775bb31218750c4f2
+2025-04-11 19:20:42,526 - lightrag - INFO -  == LLM cache == saving 240053906377b902bf3f61b2409f19b7
+2025-04-11 19:21:13,757 - lightrag - INFO -  == LLM cache == saving db42a9e098ddc4e90c24aa6f30cab17b
+2025-04-11 19:21:22,692 - lightrag - INFO -  == LLM cache == saving 2fb79007fe5f58245e04932b8a9bf6e0
+2025-04-11 19:21:52,698 - lightrag - INFO -  == LLM cache == saving a87cbda73e1064dcd607c6d0fc9c09ff
+2025-04-11 19:22:24,462 - lightrag - INFO -  == LLM cache == saving f50e3c8997c39d1c24f33678c225f83e
+2025-04-11 19:22:36,024 - lightrag - INFO -  == LLM cache == saving cebe802c9a477a358902db541dc51eca
+2025-04-11 19:23:11,372 - lightrag - INFO -  == LLM cache == saving 170a1935cb672bc48b5a030b6f4e445f
+2025-04-11 19:23:14,350 - lightrag - INFO -  == LLM cache == saving 5e64c818d90b17511c491f61d5386a17
+2025-04-11 19:23:38,018 - lightrag - INFO -  == LLM cache == saving 230c182de2b084d530e6053084307dac
+2025-04-11 19:23:45,447 - lightrag - INFO -  == LLM cache == saving 3518ee46af0899ccc10d309560362d50
+2025-04-11 19:24:06,327 - uvicorn.access - INFO - 127.0.0.1:56904 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 19:24:06,577 - uvicorn.access - INFO - 127.0.0.1:45134 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 19:24:07,056 - uvicorn.access - INFO - 127.0.0.1:45134 - "GET /docs HTTP/1.1" 200
+2025-04-11 19:24:07,185 - uvicorn.access - INFO - 127.0.0.1:56904 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 19:24:33,334 - lightrag - INFO -  == LLM cache == saving 82de99922ca9fdb1ac7ae75cd41f8d05
+2025-04-11 19:24:44,565 - lightrag - INFO -  == LLM cache == saving 2bcffacbbabd793e0933eb60cf0d4706
+2025-04-11 19:25:18,556 - lightrag - INFO -  == LLM cache == saving f23fe8fbbefc30551f27ec2cbe196b0d
+2025-04-11 19:25:32,971 - lightrag - INFO -  == LLM cache == saving d1cb46fbbb0bf02699e91f9f7c130933
+2025-04-11 19:26:07,480 - lightrag - INFO -  == LLM cache == saving a8684c69686e8d81602a17d2c0b71fe2
+2025-04-11 19:26:21,510 - lightrag - INFO -  == LLM cache == saving 6a97bc73065fe46c9dae7aaddc752170
+2025-04-11 19:26:55,027 - lightrag - INFO -  == LLM cache == saving 8ff6144e0155f00da00d1e34ff7b35d9
+2025-04-11 19:26:55,877 - lightrag - INFO -  == LLM cache == saving 21cc4118b696d0c014e1412a04767da9
+2025-04-11 19:27:20,483 - lightrag - INFO -  == LLM cache == saving 023dc204fd5d132ebe52729e58b0cffa
+2025-04-11 19:27:37,887 - lightrag - INFO -  == LLM cache == saving 50c7d5bc89072075a8d2dd7c6a57df11
+2025-04-11 19:27:39,923 - lightrag - INFO -  == LLM cache == saving 538c88d2aaed9f6c632e4837ccbd1a10
+2025-04-11 19:28:15,573 - lightrag - INFO -  == LLM cache == saving da1981fb5affdcda8a565727c0fdd4a8
+2025-04-11 19:28:26,150 - lightrag - INFO -  == LLM cache == saving a51ef451d2718eec17f6f287f3c1838a
+2025-04-11 19:29:12,987 - lightrag - INFO -  == LLM cache == saving 9f586f07a29bec389814d7fdde3098bf
+2025-04-11 19:30:23,249 - lightrag - INFO -  == LLM cache == saving 16a492aaf41abb50fc7c0e4ece656f8e
+2025-04-11 19:30:28,036 - lightrag - INFO -  == LLM cache == saving 468bd43df21f58d55d4f618afafcf004
+2025-04-11 19:30:37,699 - lightrag - INFO -  == LLM cache == saving c72cbe288b2a7d9b0841c9ecebccc335
+2025-04-11 19:31:20,620 - lightrag - INFO -  == LLM cache == saving 79546ee9a5aebd5e9a94dd0b3483528f
+2025-04-11 19:31:23,099 - lightrag - INFO -  == LLM cache == saving c671609ae22b3f0e098fca637e034049
+2025-04-11 19:31:53,701 - lightrag - INFO -  == LLM cache == saving 0769b8f21d46424c3e1152b9855529ca
+2025-04-11 19:32:50,551 - lightrag - INFO -  == LLM cache == saving 2d911ee1a414455a0b6d7c7155b206be
+2025-04-11 19:33:06,394 - lightrag - INFO -  == LLM cache == saving 456ff5b7c99c0b8eb8a3458ee6ca10af
+2025-04-11 19:33:14,622 - lightrag - INFO -  == LLM cache == saving 531f152fccd3ff7d1fe9292269c59aa0
+2025-04-11 19:34:04,533 - lightrag - INFO -  == LLM cache == saving 9f4badf84c964eacbe2a6e525ae81f30
+2025-04-11 19:34:09,729 - lightrag - INFO -  == LLM cache == saving a5c1f92513fef4d584e258d3506b0555
+2025-04-11 19:34:22,199 - lightrag - INFO -  == LLM cache == saving 5c060c5c158ebfae648ded84da3bf170
+2025-04-11 19:34:48,574 - lightrag - INFO -  == LLM cache == saving bd4e3fb4f1bf2a906df938d2d5276f53
+2025-04-11 19:35:23,674 - lightrag - INFO -  == LLM cache == saving b0df7493d13d7ad52d0182f9673eed14
+2025-04-11 19:35:24,286 - uvicorn.access - INFO - 127.0.0.1:44248 - "GET /docs HTTP/1.1" 200
+2025-04-11 19:35:24,420 - uvicorn.access - INFO - 127.0.0.1:44248 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 19:35:49,528 - lightrag - INFO -  == LLM cache == saving 47d5d585de5a3b7a90726c3b24a7f5dc
+2025-04-11 19:36:14,441 - uvicorn.access - INFO - 127.0.0.1:39874 - "GET /docs HTTP/1.1" 200
+2025-04-11 19:36:14,595 - uvicorn.access - INFO - 127.0.0.1:39874 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 19:36:25,193 - lightrag - INFO -  == LLM cache == saving 2876b95f5bfc577e3d8cdcda1f636987
+2025-04-11 19:36:58,182 - lightrag - INFO -  == LLM cache == saving f1efd9fcd82e66f3926bba99e29aa3e5
+2025-04-11 19:37:08,674 - lightrag - INFO -  == LLM cache == saving f7fbd85b6ea04b5011772409482cce33
+2025-04-11 19:37:13,265 - lightrag - INFO -  == LLM cache == saving 8957ec6aff6dda32cf9f54c1fd3c9f0c
+2025-04-11 19:38:07,346 - lightrag - INFO -  == LLM cache == saving d9c1466f3bdf5fed09c6c3d8c00a364c
+2025-04-11 19:38:45,116 - lightrag - INFO -  == LLM cache == saving db06f45da0862a498ce6d095339e8bcb
+2025-04-11 19:38:58,530 - lightrag - INFO -  == LLM cache == saving 7f2cb4ee5011f1c4ffba9e375b0813d0
+2025-04-11 19:39:12,499 - lightrag - INFO -  == LLM cache == saving 987921a84adda01caeef5af1f833d51d
+2025-04-11 19:39:27,175 - lightrag - INFO -  == LLM cache == saving 08a0f1159e8a784ae01493c601f28274
+2025-04-11 19:39:56,992 - lightrag - INFO -  == LLM cache == saving aec4666b3724c78e16970e4b7110b06e
+2025-04-11 19:40:04,115 - lightrag - INFO -  == LLM cache == saving e06c5c74a86da103afa3baf504cbe398
+2025-04-11 19:40:21,712 - lightrag - INFO -  == LLM cache == saving a133219e8eb8ebd03eb19e557a893a50
+2025-04-11 19:40:26,638 - lightrag - INFO -  == LLM cache == saving 205db856e1e00fb55877360a3be251da
+2025-04-11 19:40:30,683 - lightrag - INFO -  == LLM cache == saving 139876cb40d9cfdbf789bdadcf35a550
+2025-04-11 19:41:16,799 - lightrag - INFO -  == LLM cache == saving 08ffded79123e1260eaf93627bcd6f51
+2025-04-11 19:41:38,099 - lightrag - INFO -  == LLM cache == saving 471d73fd5a530fcf042ef6a9aac4087b
+2025-04-11 19:41:57,069 - lightrag - INFO -  == LLM cache == saving ae5bfa5c2d6e77802901ad365cc8ae56
+2025-04-11 19:42:08,947 - lightrag - INFO -  == LLM cache == saving 57765191a65c2ab751fdf6af7fbf561d
+2025-04-11 19:42:39,227 - lightrag - INFO -  == LLM cache == saving 7d04f41cd485f67d6616ce4fba1a62e1
+2025-04-11 19:43:33,158 - lightrag - INFO -  == LLM cache == saving 345acfb0ed569f12f56994965563ade3
+2025-04-11 19:43:33,437 - lightrag - INFO -  == LLM cache == saving 88d6b1e65109fc7cda541f6983ce5ab5
+2025-04-11 19:43:38,758 - lightrag - INFO -  == LLM cache == saving 6c26137a70eaf5d8314d661efa1a5252
+2025-04-11 19:44:13,202 - lightrag - INFO -  == LLM cache == saving 35c0e9dd54408a9625df8b5b7ffa55fe
+2025-04-11 19:44:25,645 - lightrag - INFO -  == LLM cache == saving 227d4a023aa6d58f812fd7f8b0dd24f3
+2025-04-11 19:44:59,449 - lightrag - INFO -  == LLM cache == saving e4514c0b5f4ef2b3d512c6ee08ff00ef
+2025-04-11 19:45:10,974 - lightrag - INFO -  == LLM cache == saving ed446e82deb620cf2644e7f376447179
+2025-04-11 19:45:35,652 - lightrag - INFO -  == LLM cache == saving 37f96ed3396d44550a4ba41b47eb6844
+2025-04-11 19:45:42,673 - lightrag - INFO -  == LLM cache == saving 52e23f90b5218994ab5e76f83e0c9b85
+2025-04-11 19:46:20,911 - lightrag - INFO -  == LLM cache == saving 5d722aca4250c1ce1f466b875353abee
+2025-04-11 19:46:40,446 - lightrag - INFO -  == LLM cache == saving fa1517eeb5c19c347f528d874f43cb87
+2025-04-11 19:46:53,063 - lightrag - INFO -  == LLM cache == saving 6ba67018b13cd1fea7706352dded1b47
+2025-04-11 19:47:02,732 - uvicorn.access - INFO - 127.0.0.1:51862 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 19:47:02,841 - uvicorn.access - INFO - 127.0.0.1:51870 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 19:47:03,383 - uvicorn.access - INFO - 127.0.0.1:51862 - "GET /docs HTTP/1.1" 200
+2025-04-11 19:47:03,484 - uvicorn.access - INFO - 127.0.0.1:51862 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 19:47:31,062 - lightrag - INFO -  == LLM cache == saving 329eee79307f94c2b4044706bb357c28
+2025-04-11 19:48:39,039 - lightrag - INFO -  == LLM cache == saving a2d2f967b41e9ec66f65c75cb0680713
+2025-04-11 19:49:19,030 - lightrag - INFO -  == LLM cache == saving ed87abcd4768de94cb24a49d40d19b8c
+2025-04-11 19:49:23,778 - lightrag - INFO -  == LLM cache == saving 00260702a25d0c2ac0f16613c7f06e13
+2025-04-11 19:49:44,615 - lightrag - INFO -  == LLM cache == saving 85fb514b78f3e950a89811e1c4b64dfb
+2025-04-11 19:50:21,034 - lightrag - INFO -  == LLM cache == saving c1f4d258c8534e34d854ad44668eb797
+2025-04-11 19:50:28,205 - lightrag - INFO -  == LLM cache == saving cc7f49bbdec72f470d782e44c1288c2c
+2025-04-11 19:50:37,828 - lightrag - INFO -  == LLM cache == saving 6c45680c52b2877165704eaf74f4a68e
+2025-04-11 19:51:09,176 - lightrag - INFO -  == LLM cache == saving cd6727b698e063041a262a25a1e6d3b8
+2025-04-11 19:51:50,197 - lightrag - INFO -  == LLM cache == saving 900e1724038b13526e48e6502ad022eb
+2025-04-11 19:52:00,666 - lightrag - INFO -  == LLM cache == saving a4ff3f8c1e979a5ca74f2dc1b38f0377
+2025-04-11 19:52:21,160 - lightrag - INFO -  == LLM cache == saving 4c101723881a588e95e7f341d23c2917
+2025-04-11 19:52:48,796 - lightrag - INFO -  == LLM cache == saving 3088e971cdc59daabb08bcc9495289f3
+2025-04-11 19:52:53,543 - lightrag - INFO -  == LLM cache == saving 0e2af85ea7d7d57a9ba5acdc980649e8
+2025-04-11 19:53:15,181 - lightrag - INFO -  == LLM cache == saving 5257fe5291283462b1c577dbad421f8c
+2025-04-11 19:53:37,168 - lightrag - INFO -  == LLM cache == saving 28d583a4b2f16b38fc2af4ad4c4134e2
+2025-04-11 19:54:01,497 - lightrag - INFO -  == LLM cache == saving 4033b504ef4244e1be78f5ad6a9eabf1
+2025-04-11 19:54:03,135 - lightrag - INFO -  == LLM cache == saving bcebf471dc6710efc9fdbc586bea0102
+2025-04-11 19:54:21,624 - lightrag - INFO -  == LLM cache == saving d02c9bb28c65a33a02ebda32364b2795
+2025-04-11 19:54:45,204 - lightrag - INFO -  == LLM cache == saving e3a82a04d687609afa308728411bbf87
+2025-04-11 19:55:15,778 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:21,169 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:26,491 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:26,543 - lightrag - ERROR - Failed to extract entities and relationships
+2025-04-11 19:55:26,545 - lightrag - ERROR - Failed to process document doc-1f12850368de0ebf99ee9d63ff8ec22f: RetryError[<Future at 0xffff59dabf90 state=finished raised APIConnectionError>]
+2025-04-11 19:55:26,545 - lightrag - INFO - Process 393061 doc status writting 2 records to doc_status
+2025-04-11 19:55:26,743 - lightrag - INFO - Process 393061 KV writting 2 records to full_docs
+2025-04-11 19:55:26,770 - lightrag - INFO - Process 393061 KV writting 2751 records to text_chunks
+2025-04-11 19:55:27,169 - lightrag - INFO - Process 393061 KV writting 362 records to llm_response_cache
+2025-04-11 19:55:27,958 - lightrag - INFO - In memory DB persist to disk
+2025-04-11 19:55:27,959 - lightrag - INFO - Completed batch 1 of 1.
+2025-04-11 19:55:27,959 - lightrag - INFO - Processing additional documents due to pending request
+2025-04-11 19:55:27,960 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-11 19:55:27,960 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-11 19:55:29,005 - lightrag - INFO - Process 393061 doc status writting 2 records to doc_status
+2025-04-11 19:55:31,444 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:34,144 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:35,940 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:35,963 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:36,833 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:39,577 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:41,402 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:41,634 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:42,438 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:55:42,609 - lightrag - ERROR - Failed to process document doc-1f12850368de0ebf99ee9d63ff8ec22f: RetryError[<Future at 0xffff4ef0ad50 state=finished raised APIConnectionError>]
+2025-04-11 19:55:42,621 - lightrag - INFO - Process 393061 doc status writting 2 records to doc_status
+2025-04-11 19:55:42,750 - lightrag - INFO - Process 393061 KV writting 2 records to full_docs
+2025-04-11 19:55:42,769 - lightrag - INFO - Process 393061 KV writting 2751 records to text_chunks
+2025-04-11 19:55:43,658 - lightrag - INFO - In memory DB persist to disk
+2025-04-11 19:55:43,658 - lightrag - INFO - Completed batch 1 of 1.
+2025-04-11 19:55:43,658 - lightrag - INFO - Document processing pipeline completed
+2025-04-11 19:55:44,838 - lightrag - ERROR - OpenAI API Connection Error: Connection error.
+2025-04-11 19:56:02,645 - uvicorn.access - INFO - 127.0.0.1:39906 - "GET /docs HTTP/1.1" 200
+2025-04-11 19:56:05,491 - uvicorn.access - INFO - 127.0.0.1:41714 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 19:56:08,498 - uvicorn.access - INFO - 127.0.0.1:41714 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 19:56:08,546 - uvicorn.access - INFO - 127.0.0.1:41714 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 19:56:22,578 - uvicorn.access - INFO - 127.0.0.1:41714 - "POST /documents/scan HTTP/1.1" 200
+2025-04-11 19:56:22,602 - lightrag - INFO - Found 1 new files to index.
+2025-04-11 19:56:22,602 - lightrag - INFO - Processing batch 1/1 with 1 files
+2025-04-11 20:05:31,057 - lightrag - INFO - No new unique documents were found.
+2025-04-11 20:05:31,059 - lightrag - INFO - Successfully fetched and enqueued file: 危险化学品安全技术全书-第三版.pdf
+2025-04-11 20:05:31,438 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-11 20:05:31,439 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-11 20:05:31,443 - lightrag - INFO -  == LLM cache == saving 33c9498295d4d433d9ecf12de38ae0e5
+2025-04-11 20:05:31,447 - lightrag - INFO -  == LLM cache == saving e945ec7f3c373127d720f6127e854215
+2025-04-11 20:05:31,451 - lightrag - INFO -  == LLM cache == saving f2820cd5b39cc29ad681570ffd92c140
+2025-04-11 20:05:31,460 - lightrag - INFO -  == LLM cache == saving 3552499a59f59f19eeaf079eaaa0316b
+2025-04-11 20:05:32,596 - lightrag - INFO - Process 393061 doc status writting 2 records to doc_status
+2025-04-11 20:05:56,352 - uvicorn.access - INFO - 127.0.0.1:50110 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 20:06:02,607 - uvicorn.access - INFO - 127.0.0.1:50130 - "GET /docs HTTP/1.1" 200
+2025-04-11 20:06:05,367 - uvicorn.access - INFO - 127.0.0.1:50110 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 20:06:15,496 - lightrag - INFO -  == LLM cache == saving 333da224d36590c46df96d0ca4ad1074
+2025-04-11 20:06:24,866 - lightrag - ERROR - Failed to process document doc-1f12850368de0ebf99ee9d63ff8ec22f: RetryError[<Future at 0xffff4d8e4bd0 state=finished raised RateLimitError>]
+2025-04-11 20:06:24,899 - lightrag - INFO - Process 393061 doc status writting 2 records to doc_status
+2025-04-11 20:06:25,206 - lightrag - INFO - Process 393061 KV writting 2 records to full_docs
+2025-04-11 20:06:25,232 - lightrag - INFO - Process 393061 KV writting 2751 records to text_chunks
+2025-04-11 20:06:25,644 - lightrag - INFO - Process 393061 KV writting 367 records to llm_response_cache
+2025-04-11 20:06:26,621 - lightrag - INFO - In memory DB persist to disk
+2025-04-11 20:06:26,622 - lightrag - INFO - Completed batch 1 of 1.
+2025-04-11 20:06:26,622 - lightrag - INFO - Document processing pipeline completed
+2025-04-11 20:06:26,622 - lightrag - INFO - Processed 1/1 files (100.0%)
+2025-04-11 20:06:30,793 - lightrag - INFO -  == LLM cache == saving 4ee015630a9dc0d352306f0d1ad51313
+2025-04-11 20:06:48,754 - uvicorn.access - INFO - 127.0.0.1:50110 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-11 20:06:50,381 - uvicorn.access - INFO - 127.0.0.1:53510 - "GET /docs HTTP/1.1" 200
+2025-04-11 20:06:50,962 - uvicorn.access - INFO - 127.0.0.1:50110 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 20:07:10,377 - uvicorn.error - INFO - Started server process [508487]
+2025-04-11 20:07:10,377 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-11 20:07:10,407 - lightrag - INFO - Process 508487 KV load full_docs with 2 records
+2025-04-11 20:07:10,457 - lightrag - INFO - Process 508487 KV load text_chunks with 2751 records
+2025-04-11 20:07:10,503 - lightrag - INFO - Process 508487 KV load llm_response_cache with 367 records
+2025-04-11 20:07:10,538 - lightrag - INFO - Process 508487 doc status load doc_status with 2 records
+2025-04-11 20:07:10,651 - lightrag - INFO - Chunk-entity-relation at bolt://192.168.215.3:7687 not found. try to create specified database.
+2025-04-11 20:07:10,790 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-04-11 20:07:10,798 - lightrag - INFO - Connected to None at bolt://192.168.215.3:7687
+2025-04-11 20:07:10,826 - uvicorn.error - INFO - Application startup complete.
+2025-04-11 20:07:10,829 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-11 20:07:14,068 - uvicorn.access - INFO - 127.0.0.1:44620 - "GET / HTTP/1.1" 307
+2025-04-11 20:07:14,077 - uvicorn.access - INFO - 127.0.0.1:44620 - "GET /webui HTTP/1.1" 307
+2025-04-11 20:07:14,173 - uvicorn.access - INFO - 127.0.0.1:44620 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 200
+2025-04-11 20:07:14,271 - uvicorn.access - INFO - 127.0.0.1:44622 - "GET /webui/assets/index-CkwV8nfm.js HTTP/1.1" 304
+2025-04-11 20:07:14,593 - uvicorn.access - INFO - 127.0.0.1:44620 - "GET /auth-status HTTP/1.1" 200
+2025-04-11 20:07:14,771 - uvicorn.access - INFO - 127.0.0.1:44620 - "GET /docs HTTP/1.1" 200
+2025-04-11 20:07:15,068 - uvicorn.access - INFO - 127.0.0.1:44620 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 20:07:17,434 - uvicorn.access - INFO - 127.0.0.1:44620 - "POST /documents/scan HTTP/1.1" 200
+2025-04-11 20:07:17,451 - lightrag - INFO - Found 1 new files to index.
+2025-04-11 20:07:17,452 - lightrag - INFO - Processing batch 1/1 with 1 files
+2025-04-11 20:15:05,564 - lightrag - INFO - No new unique documents were found.
+2025-04-11 20:15:05,565 - lightrag - INFO - Successfully fetched and enqueued file: 危险化学品安全技术全书-第三版.pdf
+2025-04-11 20:15:05,568 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-11 20:15:05,568 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-11 20:15:06,809 - lightrag - INFO - Process 508487 doc status writting 2 records to doc_status
+2025-04-11 20:15:23,165 - uvicorn.access - INFO - 127.0.0.1:43448 - "GET /docs HTTP/1.1" 200
+2025-04-11 20:15:23,327 - uvicorn.access - INFO - 127.0.0.1:43448 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 20:16:34,491 - uvicorn.access - INFO - 127.0.0.1:56602 - "GET /docs HTTP/1.1" 200
+2025-04-11 20:16:34,643 - uvicorn.access - INFO - 127.0.0.1:56602 - "GET /openapi.json HTTP/1.1" 200
+2025-04-11 20:16:43,483 - uvicorn.access - INFO - 127.0.0.1:56602 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 20:16:43,509 - uvicorn.access - INFO - 127.0.0.1:56602 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 20:16:45,179 - uvicorn.access - INFO - 127.0.0.1:56602 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-11 20:16:45,201 - uvicorn.access - INFO - 127.0.0.1:56602 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-11 20:17:03,593 - lightrag - INFO -  == LLM cache == saving 87175bf0efb7cc3ae8105ce2765bff12
+2025-04-11 20:17:03,600 - lightrag - INFO - Chk 1/2750: extracted 42 Ent + 24 Rel (deduplicated)
+2025-04-11 20:17:20,670 - lightrag - INFO -  == LLM cache == saving 42df3d20be5b05fd9bf5e533a50261b1
+2025-04-11 20:17:20,678 - lightrag - INFO - Chk 2/2750: extracted 35 Ent + 30 Rel (deduplicated)
+2025-04-11 20:17:47,654 - lightrag - INFO -  == LLM cache == saving 1f1501fdfcb6be0e2e06eb9d8398a38e
+2025-04-11 20:17:47,659 - lightrag - INFO - Chk 3/2750: extracted 18 Ent + 9 Rel (deduplicated)
+2025-04-11 20:18:12,252 - lightrag - INFO -  == LLM cache == saving 60eacb22e69c6d6e4048e4ba3df8fa73
+2025-04-11 20:18:12,255 - lightrag - INFO - Chk 4/2750: extracted 24 Ent + 16 Rel (deduplicated)
+2025-04-11 20:18:16,109 - lightrag - INFO -  == LLM cache == saving 974246ce6373fbd9ac8f6392654cc049
+2025-04-11 20:18:16,117 - lightrag - INFO - Chk 5/2750: extracted 28 Ent + 25 Rel (deduplicated)
+2025-04-11 20:18:21,712 - lightrag - INFO -  == LLM cache == saving 5f8fc0d1a743025c3d8c371b74410da0
+2025-04-11 20:18:21,725 - lightrag - INFO - Chk 6/2750: extracted 72 Ent + 24 Rel (deduplicated)
+2025-04-11 20:19:14,327 - lightrag - INFO -  == LLM cache == saving bf6761ae9feddd1bde9cb577b55c34ff
+2025-04-11 20:19:14,337 - lightrag - INFO - Chk 7/2750: extracted 18 Ent + 14 Rel (deduplicated)
+2025-04-12 13:45:05,881 - uvicorn.error - INFO - Started server process [94813]
+2025-04-12 13:45:05,882 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 13:45:05,882 - lightrag - INFO - Process 94813 KV load full_docs with 0 records
+2025-04-12 13:45:05,882 - lightrag - INFO - Process 94813 KV load text_chunks with 0 records
+2025-04-12 13:45:05,883 - lightrag - INFO - Process 94813 KV load llm_response_cache with 0 records
+2025-04-12 13:45:05,883 - lightrag - INFO - Process 94813 doc status load doc_status with 0 records
+2025-04-12 13:45:05,897 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 13:45:05,908 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 13:45:05,908 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 13:45:14,672 - uvicorn.access - INFO - 127.0.0.1:60371 - "GET /webui/assets/index-Cicy56pP.js HTTP/1.1" 304
+2025-04-12 13:45:14,675 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-12 13:45:15,024 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:15,081 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:15,194 - uvicorn.access - INFO - 127.0.0.1:60371 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:15,196 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:15,198 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /graphs?label=*&max_depth=4&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:18,784 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:18,813 - uvicorn.access - INFO - 127.0.0.1:60371 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:18,849 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:18,857 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:18,863 - uvicorn.access - INFO - 127.0.0.1:60371 - "GET /graphs?label=*&max_depth=4&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:19,594 - uvicorn.access - INFO - 127.0.0.1:60371 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:19,626 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:19,659 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:19,662 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /graphs?label=*&max_depth=4&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:19,672 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:20,282 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:20,313 - uvicorn.access - INFO - 127.0.0.1:60371 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:20,345 - uvicorn.access - INFO - 127.0.0.1:60372 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:20,362 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:20,365 - uvicorn.access - INFO - 127.0.0.1:60371 - "GET /graphs?label=*&max_depth=4&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:33,798 - uvicorn.access - INFO - 127.0.0.1:60415 - "GET /webui/assets/index-Cicy56pP.js HTTP/1.1" 200
+2025-04-12 13:45:33,800 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 200
+2025-04-12 13:45:33,993 - uvicorn.access - INFO - 127.0.0.1:60415 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 13:45:34,129 - uvicorn.access - INFO - 127.0.0.1:60415 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:34,161 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:34,188 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:34,190 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:34,766 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /webui/logo.png HTTP/1.1" 200
+2025-04-12 13:45:35,723 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:35,773 - uvicorn.access - INFO - 127.0.0.1:60415 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:35,817 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:35,820 - uvicorn.access - INFO - 127.0.0.1:60415 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:36,067 - uvicorn.access - INFO - 127.0.0.1:60415 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:38,565 - uvicorn.access - INFO - 127.0.0.1:60415 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:38,594 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:38,629 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:38,631 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:38,662 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:50,942 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:50,991 - uvicorn.access - INFO - 127.0.0.1:60450 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:51,038 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:51,047 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:51,055 - uvicorn.access - INFO - 127.0.0.1:60450 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:45:51,925 - uvicorn.access - INFO - 127.0.0.1:60450 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:45:51,956 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:45:52,025 - uvicorn.access - INFO - 127.0.0.1:60450 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:45:52,047 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:45:52,052 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:46:06,470 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:46:06,508 - uvicorn.access - INFO - 127.0.0.1:60461 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:46:06,539 - uvicorn.access - INFO - 127.0.0.1:60420 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:46:06,547 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:46:06,555 - uvicorn.access - INFO - 127.0.0.1:60461 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:46:12,367 - uvicorn.access - INFO - 127.0.0.1:60515 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 200
+2025-04-12 13:46:12,368 - uvicorn.access - INFO - 127.0.0.1:60514 - "GET /webui/assets/index-Cicy56pP.js HTTP/1.1" 200
+2025-04-12 13:46:12,543 - uvicorn.access - INFO - 127.0.0.1:60515 - "GET /webui/logo.png HTTP/1.1" 200
+2025-04-12 13:46:12,555 - uvicorn.access - INFO - 127.0.0.1:60514 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 13:46:13,233 - uvicorn.access - INFO - 127.0.0.1:60515 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:46:13,252 - uvicorn.access - INFO - 127.0.0.1:60514 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:46:13,286 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:46:13,288 - uvicorn.access - INFO - 127.0.0.1:60515 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:46:14,366 - uvicorn.access - INFO - 127.0.0.1:60514 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:46:21,765 - lightrag - INFO - Process 94813 buidling query context...
+2025-04-12 13:46:21,765 - lightrag - INFO - Query edges: Hello, top_k: 10, cosine: 0.2
+2025-04-12 13:46:22,211 - lightrag - INFO - Process 94813 KV writting 1 records to llm_response_cache
+2025-04-12 13:46:22,212 - uvicorn.access - INFO - 127.0.0.1:60514 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 13:46:38,201 - lightrag - INFO - Process 94813 buidling query context...
+2025-04-12 13:46:38,202 - lightrag - INFO - Query edges: 自然语义, 语义理解, top_k: 10, cosine: 0.2
+2025-04-12 13:46:38,631 - lightrag - INFO - Process 94813 KV writting 2 records to llm_response_cache
+2025-04-12 13:46:38,632 - uvicorn.access - INFO - 127.0.0.1:60687 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 13:46:52,858 - uvicorn.access - INFO - 127.0.0.1:60718 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:46:52,880 - uvicorn.access - INFO - 127.0.0.1:60717 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:46:52,889 - uvicorn.access - INFO - 127.0.0.1:60718 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:46:52,903 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:46:52,905 - uvicorn.access - INFO - 127.0.0.1:60717 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:47:06,941 - uvicorn.access - INFO - 127.0.0.1:60806 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 13:47:07,052 - uvicorn.access - INFO - 127.0.0.1:60806 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:47:07,090 - uvicorn.access - INFO - 127.0.0.1:60806 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:47:07,366 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:47:07,375 - uvicorn.access - INFO - 127.0.0.1:60806 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:47:07,493 - uvicorn.access - INFO - 127.0.0.1:60806 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:47:21,499 - lightrag - INFO - Process 94813 buidling query context...
+2025-04-12 13:47:21,499 - lightrag - INFO - Query edges: 自然语义, 何晗, 关系, top_k: 10, cosine: 0.2
+2025-04-12 13:47:21,956 - lightrag - INFO - Process 94813 KV writting 3 records to llm_response_cache
+2025-04-12 13:47:21,957 - uvicorn.access - INFO - 127.0.0.1:60807 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 13:47:31,484 - uvicorn.access - INFO - 127.0.0.1:60878 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:47:31,510 - uvicorn.access - INFO - 127.0.0.1:60878 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:47:31,689 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:47:31,694 - uvicorn.access - INFO - 127.0.0.1:60878 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:47:31,698 - uvicorn.access - INFO - 127.0.0.1:60878 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:47:47,435 - uvicorn.error - INFO - Shutting down
+2025-04-12 13:47:47,537 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-04-12 13:47:47,539 - uvicorn.error - INFO - Application shutdown complete.
+2025-04-12 13:47:47,539 - uvicorn.error - INFO - Finished server process [94813]
+2025-04-12 13:49:12,861 - uvicorn.error - INFO - Started server process [95568]
+2025-04-12 13:49:12,861 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 13:49:12,861 - lightrag - INFO - Process 95568 KV load full_docs with 0 records
+2025-04-12 13:49:12,861 - lightrag - INFO - Process 95568 KV load text_chunks with 0 records
+2025-04-12 13:49:12,862 - lightrag - INFO - Process 95568 KV load llm_response_cache with 3 records
+2025-04-12 13:49:12,862 - lightrag - INFO - Process 95568 doc status load doc_status with 0 records
+2025-04-12 13:49:12,876 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 13:49:12,889 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 13:49:12,889 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 13:49:23,317 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /webui/assets/index-Cicy56pP.js HTTP/1.1" 304
+2025-04-12 13:49:23,566 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:49:23,618 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:49:23,655 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:49:23,657 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:49:23,671 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:49:24,646 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:49:24,673 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:49:24,712 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:49:24,714 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:49:24,716 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:49:25,393 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:49:25,421 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:49:25,456 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:49:25,458 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:49:25,459 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:49:29,254 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:49:29,280 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:49:29,317 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:49:29,318 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:49:29,321 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:49:30,642 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:49:30,675 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:49:30,705 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:49:30,707 - uvicorn.access - INFO - 127.0.0.1:61055 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:49:30,708 - uvicorn.access - INFO - 127.0.0.1:61054 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:49:52,357 - uvicorn.access - INFO - 127.0.0.1:61097 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:49:52,379 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:49:52,383 - uvicorn.access - INFO - 127.0.0.1:61097 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:49:55,247 - uvicorn.access - INFO - 127.0.0.1:61097 - "POST /documents/scan HTTP/1.1" 200
+2025-04-12 13:49:55,255 - lightrag - INFO - Found 1 new files to index.
+2025-04-12 13:49:55,255 - lightrag - INFO - Processing batch 1/1 with 1 files
+2025-04-12 13:52:16,613 - lightrag - INFO - Process 95568 doc status writting 1 records to doc_status
+2025-04-12 13:52:16,629 - lightrag - INFO - Stored 1 new unique documents
+2025-04-12 13:52:16,629 - lightrag - INFO - Successfully fetched and enqueued file: 危险化学品安全技术全书-第三版.pdf
+2025-04-12 13:52:16,630 - uvicorn.error - INFO - Shutting down
+2025-04-12 13:52:16,630 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-12 13:52:16,630 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-12 13:52:35,318 - uvicorn.error - INFO - Started server process [96072]
+2025-04-12 13:52:35,318 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 13:52:35,318 - lightrag - INFO - Process 96072 KV load full_docs with 0 records
+2025-04-12 13:52:35,318 - lightrag - INFO - Process 96072 KV load text_chunks with 0 records
+2025-04-12 13:52:35,319 - lightrag - INFO - Process 96072 KV load llm_response_cache with 3 records
+2025-04-12 13:52:35,345 - lightrag - INFO - Process 96072 doc status load doc_status with 1 records
+2025-04-12 13:52:35,356 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 13:52:35,367 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 13:52:35,367 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 13:52:37,687 - uvicorn.access - INFO - 127.0.0.1:61385 - "GET /webui/assets/index-Cicy56pP.js HTTP/1.1" 304
+2025-04-12 13:52:38,008 - uvicorn.access - INFO - 127.0.0.1:61385 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:52:38,050 - uvicorn.access - INFO - 127.0.0.1:61385 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:52:38,149 - lightrag - INFO - Subgraph query successful | Node count: 85 | Edge count: 71
+2025-04-12 13:52:38,154 - uvicorn.access - INFO - 127.0.0.1:61385 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:52:38,177 - uvicorn.access - INFO - 127.0.0.1:61385 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:52:46,971 - lightrag - WARNING - low_level_keywords is empty, switching from hybrid mode to global mode
+2025-04-12 13:52:46,972 - lightrag - INFO - Process 96072 buidling query context...
+2025-04-12 13:52:46,972 - lightrag - INFO - Query edges: 22222, top_k: 10, cosine: 0.2
+2025-04-12 13:52:47,453 - lightrag - INFO - Process 96072 KV writting 4 records to llm_response_cache
+2025-04-12 13:52:47,455 - uvicorn.access - INFO - 127.0.0.1:61386 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 13:52:58,757 - lightrag - INFO - Process 96072 buidling query context...
+2025-04-12 13:52:58,757 - lightrag - INFO - Query nodes: 自然语义概念, 何晗的研究或工作, 关联性, top_k: 10, cosine: 0.2
+2025-04-12 13:52:58,827 - lightrag - INFO - Query edges: 自然语义, 何晗, 关系, top_k: 10, cosine: 0.2
+2025-04-12 13:52:59,326 - lightrag - INFO - Process 96072 KV writting 5 records to llm_response_cache
+2025-04-12 13:52:59,327 - uvicorn.access - INFO - 127.0.0.1:61425 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 13:53:12,446 - lightrag - INFO - Process 96072 KV writting 0 records to text_chunks
+2025-04-12 13:53:12,447 - lightrag - INFO - Process 96072 drop text_chunks
+2025-04-12 13:53:12,447 - lightrag - INFO - Process 96072 KV writting 0 records to full_docs
+2025-04-12 13:53:12,447 - lightrag - INFO - Process 96072 drop full_docs
+2025-04-12 13:53:12,448 - lightrag - INFO - Process 96072 drop entities(file:/Users/czq/code/归档/rag_storage/vdb_entities.json)
+2025-04-12 13:53:12,448 - lightrag - INFO - Process 96072 drop relationships(file:/Users/czq/code/归档/rag_storage/vdb_relationships.json)
+2025-04-12 13:53:12,448 - lightrag - INFO - Process 96072 drop chunks(file:/Users/czq/code/归档/rag_storage/vdb_chunks.json)
+2025-04-12 13:53:12,449 - lightrag - INFO - Process 96072 doc status writting 0 records to doc_status
+2025-04-12 13:53:12,450 - lightrag - INFO - Process 96072 drop doc_status
+2025-04-12 13:53:12,526 - lightrag - INFO - Process 96072 drop Neo4j database chunk-entity-relation
+2025-04-12 13:53:12,526 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 13:53:12,527 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 13:53:12,527 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 13:53:12,527 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 13:53:12,527 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 13:53:12,527 - lightrag - INFO - Successfully dropped Neo4JStorage
+2025-04-12 13:53:12,527 - lightrag - INFO - Successfully dropped JsonDocStatusStorage
+2025-04-12 13:53:12,530 - uvicorn.access - INFO - 127.0.0.1:61460 - "DELETE /documents HTTP/1.1" 200
+2025-04-12 13:53:12,539 - lightrag - INFO - Cleared all cache
+2025-04-12 13:53:12,539 - lightrag - INFO - Process 96072 KV writting 0 records to llm_response_cache
+2025-04-12 13:53:12,541 - uvicorn.access - INFO - 127.0.0.1:61460 - "POST /documents/clear_cache HTTP/1.1" 200
+2025-04-12 13:53:20,636 - uvicorn.access - INFO - 127.0.0.1:61460 - "POST /documents/upload HTTP/1.1" 200
+2025-04-12 13:53:21,847 - lightrag - ERROR - Error processing or enqueueing file HanLP规划.docx: cannot import name 'Document' from 'docx' (/opt/anaconda3/lib/python3.12/site-packages/docx.py)
+2025-04-12 13:53:21,848 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/czq/code/LightRAG/lightrag/api/routers/document_routes.py", line 504, in pipeline_enqueue_file
+    from docx import Document
+ImportError: cannot import name 'Document' from 'docx' (/opt/anaconda3/lib/python3.12/site-packages/docx.py). Did you mean: 'newdocument'?
+
+2025-04-12 13:53:51,877 - uvicorn.error - INFO - Shutting down
+2025-04-12 13:54:08,871 - uvicorn.error - INFO - Started server process [96523]
+2025-04-12 13:54:08,871 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 13:54:08,871 - lightrag - INFO - Process 96523 KV load full_docs with 0 records
+2025-04-12 13:54:08,871 - lightrag - INFO - Process 96523 KV load text_chunks with 0 records
+2025-04-12 13:54:08,872 - lightrag - INFO - Process 96523 KV load llm_response_cache with 0 records
+2025-04-12 13:54:08,872 - lightrag - INFO - Process 96523 doc status load doc_status with 0 records
+2025-04-12 13:54:08,925 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 13:54:08,929 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 13:54:08,929 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 13:54:11,143 - uvicorn.access - INFO - 127.0.0.1:61582 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-12 13:54:11,379 - uvicorn.access - INFO - 127.0.0.1:61582 - "GET /docs HTTP/1.1" 200
+2025-04-12 13:54:11,442 - uvicorn.access - INFO - 127.0.0.1:61583 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:54:11,491 - uvicorn.access - INFO - 127.0.0.1:61582 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 13:54:11,525 - uvicorn.access - INFO - 127.0.0.1:61583 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:54:17,376 - uvicorn.access - INFO - 127.0.0.1:61583 - "POST /documents/upload HTTP/1.1" 200
+2025-04-12 13:54:24,414 - lightrag - INFO - Process 96523 KV writting 0 records to text_chunks
+2025-04-12 13:54:24,415 - lightrag - INFO - Process 96523 drop text_chunks
+2025-04-12 13:54:24,415 - lightrag - INFO - Process 96523 KV writting 0 records to full_docs
+2025-04-12 13:54:24,415 - lightrag - INFO - Process 96523 drop full_docs
+2025-04-12 13:54:24,416 - lightrag - INFO - Process 96523 drop entities(file:/Users/czq/code/归档/rag_storage/vdb_entities.json)
+2025-04-12 13:54:24,416 - lightrag - INFO - Process 96523 drop relationships(file:/Users/czq/code/归档/rag_storage/vdb_relationships.json)
+2025-04-12 13:54:24,416 - lightrag - INFO - Process 96523 drop chunks(file:/Users/czq/code/归档/rag_storage/vdb_chunks.json)
+2025-04-12 13:54:24,417 - lightrag - INFO - Process 96523 doc status writting 0 records to doc_status
+2025-04-12 13:54:24,418 - lightrag - INFO - Process 96523 drop doc_status
+2025-04-12 13:54:24,444 - lightrag - INFO - Process 96523 drop Neo4j database chunk-entity-relation
+2025-04-12 13:54:24,444 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 13:54:24,444 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 13:54:24,444 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 13:54:24,444 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 13:54:24,444 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 13:54:24,444 - lightrag - INFO - Successfully dropped Neo4JStorage
+2025-04-12 13:54:24,444 - lightrag - INFO - Successfully dropped JsonDocStatusStorage
+2025-04-12 13:54:24,445 - uvicorn.access - INFO - 127.0.0.1:61583 - "DELETE /documents HTTP/1.1" 200
+2025-04-12 13:54:24,450 - lightrag - INFO - Cleared all cache
+2025-04-12 13:54:24,450 - uvicorn.access - INFO - 127.0.0.1:61583 - "POST /documents/clear_cache HTTP/1.1" 200
+2025-04-12 13:54:30,764 - uvicorn.access - INFO - 127.0.0.1:61620 - "POST /documents/upload HTTP/1.1" 200
+2025-04-12 13:54:32,071 - lightrag - INFO - Process 96523 doc status writting 1 records to doc_status
+2025-04-12 13:54:32,071 - lightrag - INFO - Stored 1 new unique documents
+2025-04-12 13:54:32,071 - lightrag - INFO - Successfully fetched and enqueued file: 关于hanlp.com推广工作的一点想法.docx
+2025-04-12 13:54:32,072 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-12 13:54:32,072 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-12 13:54:32,215 - lightrag - INFO - Process 96523 doc status writting 1 records to doc_status
+2025-04-12 13:55:10,876 - lightrag - INFO - Saving LLM cache for b0c639b15b5d08af332fbad0b0ffebe7
+2025-04-12 13:55:59,545 - lightrag - INFO - Saving LLM cache for 46c5ce8c02e03aeac802c6c13788c6f0
+2025-04-12 13:55:59,546 - lightrag - INFO -   Chk 1/2: extracted 9 Ent + 12 Rel (deduplicated)
+2025-04-12 13:56:19,796 - lightrag - INFO - Saving LLM cache for e25d13c9d7b84c07645591c3a47d3f25
+2025-04-12 13:57:57,202 - lightrag - INFO - Saving LLM cache for 66fdabe427f8947859cc586ce74ac17e
+2025-04-12 13:57:57,204 - lightrag - INFO -   Chk 2/2: extracted 28 Ent + 25 Rel (deduplicated)
+2025-04-12 13:57:59,315 - lightrag - INFO - Extracted 37 entities + 37 relationships (total)
+2025-04-12 13:57:59,315 - lightrag - INFO - Process 96523 doc status writting 1 records to doc_status
+2025-04-12 13:57:59,316 - lightrag - INFO - Process 96523 KV writting 1 records to full_docs
+2025-04-12 13:57:59,316 - lightrag - INFO - Process 96523 KV writting 2 records to text_chunks
+2025-04-12 13:57:59,316 - lightrag - INFO - Process 96523 KV writting 4 records to llm_response_cache
+2025-04-12 13:57:59,319 - lightrag - INFO - In memory DB persist to disk
+2025-04-12 13:57:59,319 - lightrag - INFO - Completed batch 1 of 1.
+2025-04-12 13:57:59,319 - lightrag - INFO - Document processing pipeline completed
+2025-04-12 13:58:07,536 - uvicorn.access - INFO - 127.0.0.1:61865 - "POST /login HTTP/1.1" 200
+2025-04-12 13:58:43,722 - uvicorn.access - INFO - 127.0.0.1:61955 - "POST /documents/text HTTP/1.1" 200
+2025-04-12 13:58:43,738 - lightrag - INFO - Process 96523 doc status writting 2 records to doc_status
+2025-04-12 13:58:43,740 - lightrag - INFO - Stored 1 new unique documents
+2025-04-12 13:58:43,740 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-12 13:58:43,740 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-12 13:58:43,741 - lightrag - INFO - Process 96523 doc status writting 2 records to doc_status
+2025-04-12 13:58:50,962 - lightrag - INFO - Saving LLM cache for d7bbf9fa64ee4e3cdd273207a4907788
+2025-04-12 13:59:09,734 - uvicorn.access - INFO - 127.0.0.1:61996 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 13:59:09,796 - lightrag - INFO - Subgraph query successful | Node count: 42 | Edge count: 37
+2025-04-12 13:59:09,799 - uvicorn.access - INFO - 127.0.0.1:61996 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 13:59:14,402 - lightrag - INFO - Saving LLM cache for 67d7c2e0ae534f77b02fbdbfbde9360e
+2025-04-12 13:59:14,403 - lightrag - INFO -   Chk 1/1: extracted 8 Ent + 5 Rel (deduplicated)
+2025-04-12 13:59:15,800 - lightrag - INFO - Extracted 8 entities + 5 relationships (total)
+2025-04-12 13:59:15,800 - lightrag - INFO - Process 96523 doc status writting 2 records to doc_status
+2025-04-12 13:59:15,800 - lightrag - INFO - Process 96523 KV writting 2 records to full_docs
+2025-04-12 13:59:15,801 - lightrag - INFO - Process 96523 KV writting 3 records to text_chunks
+2025-04-12 13:59:15,801 - lightrag - INFO - Process 96523 KV writting 6 records to llm_response_cache
+2025-04-12 13:59:15,804 - lightrag - INFO - In memory DB persist to disk
+2025-04-12 13:59:15,804 - lightrag - INFO - Completed batch 1 of 1.
+2025-04-12 13:59:15,804 - lightrag - INFO - Document processing pipeline completed
+2025-04-12 13:59:24,486 - lightrag - INFO - Process 96523 buidling query context...
+2025-04-12 13:59:24,486 - lightrag - INFO - Query nodes: 何晗, 网站, hanlp.com, top_k: 10, cosine: 0.2
+2025-04-12 13:59:24,548 - lightrag - INFO - Query edges: 自然语义, 关系, HanLP, top_k: 10, cosine: 0.2
+2025-04-12 13:59:25,063 - lightrag - INFO - Global query uses 14 entites, 10 relations, 3 chunks
+2025-04-12 13:59:30,570 - lightrag - INFO - Local query uses 10 entites, 15 relations, 2 chunks
+2025-04-12 13:59:32,296 - lightrag - INFO - Process 96523 KV writting 7 records to llm_response_cache
+2025-04-12 13:59:32,300 - uvicorn.access - INFO - 127.0.0.1:62011 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 14:01:49,302 - lightrag - INFO - Process 96523 KV writting 8 records to llm_response_cache
+2025-04-12 14:01:49,305 - uvicorn.access - INFO - 127.0.0.1:62293 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 14:02:09,837 - lightrag - INFO - Process 96523 KV writting 9 records to llm_response_cache
+2025-04-12 14:02:09,840 - uvicorn.access - INFO - 127.0.0.1:62318 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 14:02:35,000 - lightrag - INFO - Process 96523 KV writting 10 records to llm_response_cache
+2025-04-12 14:02:35,002 - uvicorn.access - INFO - 127.0.0.1:62341 - "POST /query HTTP/1.1" 200
+2025-04-12 14:07:41,157 - uvicorn.error - INFO - Started server process [99070]
+2025-04-12 14:07:41,158 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:07:41,158 - lightrag - INFO - Process 99070 KV load full_docs with 2 records
+2025-04-12 14:07:41,158 - lightrag - INFO - Process 99070 KV load text_chunks with 3 records
+2025-04-12 14:07:41,159 - lightrag - INFO - Process 99070 KV load llm_response_cache with 10 records
+2025-04-12 14:07:41,160 - lightrag - INFO - Process 99070 doc status load doc_status with 2 records
+2025-04-12 14:07:41,194 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 14:07:41,198 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 14:07:41,199 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 14:07:49,009 - uvicorn.access - INFO - 127.0.0.1:63020 - "GET / HTTP/1.1" 307
+2025-04-12 14:07:49,014 - uvicorn.access - INFO - 127.0.0.1:63020 - "GET /webui HTTP/1.1" 307
+2025-04-12 14:07:49,034 - uvicorn.access - INFO - 127.0.0.1:63020 - "GET /webui/assets/index-Cicy56pP.js HTTP/1.1" 304
+2025-04-12 14:07:49,035 - uvicorn.access - INFO - 127.0.0.1:63022 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-12 14:07:49,498 - uvicorn.access - INFO - 127.0.0.1:63022 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 14:07:49,622 - uvicorn.access - INFO - 127.0.0.1:63022 - "GET /docs HTTP/1.1" 200
+2025-04-12 14:07:49,630 - uvicorn.access - INFO - 127.0.0.1:63022 - "GET /graph/label/list HTTP/1.1" 401
+2025-04-12 14:07:49,816 - uvicorn.access - INFO - 127.0.0.1:63022 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 401
+2025-04-12 14:07:49,819 - uvicorn.access - INFO - 127.0.0.1:63020 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 14:07:54,740 - uvicorn.access - INFO - 127.0.0.1:63020 - "POST /login HTTP/1.1" 200
+2025-04-12 14:07:54,849 - uvicorn.access - INFO - 127.0.0.1:63020 - "GET /docs HTTP/1.1" 200
+2025-04-12 14:07:54,884 - uvicorn.access - INFO - 127.0.0.1:63020 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 14:07:54,923 - uvicorn.access - INFO - 127.0.0.1:63031 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 14:07:54,926 - lightrag - INFO - Subgraph query successful | Node count: 50 | Edge count: 42
+2025-04-12 14:07:54,927 - uvicorn.access - INFO - 127.0.0.1:63020 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 14:08:27,197 - lightrag - INFO - Process 99070 KV writting 11 records to llm_response_cache
+2025-04-12 14:08:27,198 - uvicorn.access - INFO - 127.0.0.1:63048 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 14:11:04,642 - uvicorn.error - INFO - Started server process [4020]
+2025-04-12 14:11:04,642 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:11:04,642 - lightrag - INFO - Process 4020 KV load full_docs with 2 records
+2025-04-12 14:11:04,642 - lightrag - INFO - Process 4020 KV load text_chunks with 3 records
+2025-04-12 14:11:04,643 - lightrag - INFO - Process 4020 KV load llm_response_cache with 11 records
+2025-04-12 14:11:04,644 - lightrag - INFO - Process 4020 doc status load doc_status with 2 records
+2025-04-12 14:11:05,338 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 14:11:05,495 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 14:11:05,496 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 14:11:10,028 - uvicorn.access - INFO - 127.0.0.1:49822 - "GET / HTTP/1.1" 307
+2025-04-12 14:11:10,039 - uvicorn.access - INFO - 127.0.0.1:49822 - "GET /webui HTTP/1.1" 307
+2025-04-12 14:11:10,560 - uvicorn.access - INFO - 127.0.0.1:49822 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 14:11:11,298 - uvicorn.access - INFO - 127.0.0.1:49822 - "GET /docs HTTP/1.1" 200
+2025-04-12 14:11:11,546 - uvicorn.access - INFO - 127.0.0.1:49824 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 14:11:11,616 - uvicorn.access - INFO - 127.0.0.1:49822 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 14:11:12,099 - lightrag - INFO - Subgraph query successful | Node count: 50 | Edge count: 42
+2025-04-12 14:11:12,102 - uvicorn.access - INFO - 127.0.0.1:49822 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 14:13:06,046 - uvicorn.error - INFO - Shutting down
+2025-04-12 14:13:06,148 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-04-12 14:13:06,150 - uvicorn.error - INFO - Application shutdown complete.
+2025-04-12 14:13:06,150 - uvicorn.error - INFO - Finished server process [4020]
+2025-04-12 14:13:35,747 - uvicorn.error - INFO - Started server process [4349]
+2025-04-12 14:13:35,747 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:13:35,747 - lightrag - INFO - Process 4349 KV load full_docs with 2 records
+2025-04-12 14:13:35,748 - lightrag - INFO - Process 4349 KV load text_chunks with 3 records
+2025-04-12 14:13:35,748 - lightrag - INFO - Process 4349 KV load llm_response_cache with 11 records
+2025-04-12 14:13:35,749 - lightrag - INFO - Process 4349 doc status load doc_status with 2 records
+2025-04-12 14:13:35,775 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 14:13:35,783 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 14:13:35,783 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 14:13:36,795 - uvicorn.error - INFO - Shutting down
+2025-04-12 14:13:36,896 - uvicorn.error - INFO - Finished server process [4349]
+2025-04-12 14:13:36,902 - uvicorn.error - ERROR - Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/starlette/routing.py", line 699, in lifespan
+    await receive()
+  File "/opt/anaconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-04-12 14:17:54,074 - uvicorn.error - INFO - Started server process [5894]
+2025-04-12 14:17:54,074 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:17:54,075 - lightrag - INFO - Process 5894 KV load full_docs with 2 records
+2025-04-12 14:17:54,075 - lightrag - INFO - Process 5894 KV load text_chunks with 3 records
+2025-04-12 14:17:54,077 - lightrag - INFO - Process 5894 KV load llm_response_cache with 11 records
+2025-04-12 14:17:54,078 - lightrag - INFO - Process 5894 doc status load doc_status with 2 records
+2025-04-12 14:17:54,118 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 14:17:54,131 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 14:17:54,132 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 14:17:59,936 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET / HTTP/1.1" 307
+2025-04-12 14:17:59,939 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET /webui HTTP/1.1" 307
+2025-04-12 14:17:59,955 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET /webui/assets/index-Cicy56pP.js HTTP/1.1" 404
+2025-04-12 14:18:03,985 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 200
+2025-04-12 14:18:04,185 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 14:18:04,346 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET /docs HTTP/1.1" 200
+2025-04-12 14:18:04,377 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 14:18:04,426 - uvicorn.access - INFO - 127.0.0.1:52436 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 14:18:04,456 - lightrag - INFO - Subgraph query successful | Node count: 50 | Edge count: 42
+2025-04-12 14:18:04,457 - uvicorn.access - INFO - 127.0.0.1:52429 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 14:18:37,081 - lightrag - INFO - Process 5894 KV writting 12 records to llm_response_cache
+2025-04-12 14:18:37,084 - uvicorn.access - INFO - 127.0.0.1:52429 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 14:18:52,508 - uvicorn.error - INFO - Shutting down
+2025-04-12 14:18:54,294 - uvicorn.error - INFO - Finished server process [5894]
+2025-04-12 14:18:54,304 - uvicorn.error - ERROR - Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/starlette/routing.py", line 699, in lifespan
+    await receive()
+  File "/opt/anaconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-04-12 14:19:53,918 - uvicorn.error - INFO - Started server process [6585]
+2025-04-12 14:19:53,918 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:19:53,919 - lightrag - INFO - Process 6585 KV load full_docs with 2 records
+2025-04-12 14:19:53,919 - lightrag - INFO - Process 6585 KV load text_chunks with 3 records
+2025-04-12 14:19:53,921 - lightrag - INFO - Process 6585 KV load llm_response_cache with 12 records
+2025-04-12 14:19:53,921 - lightrag - INFO - Process 6585 doc status load doc_status with 2 records
+2025-04-12 14:19:53,944 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 14:19:53,952 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 14:19:53,952 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 14:19:59,256 - uvicorn.access - INFO - 127.0.0.1:52826 - "GET / HTTP/1.1" 307
+2025-04-12 14:19:59,265 - uvicorn.access - INFO - 127.0.0.1:52826 - "GET /webui HTTP/1.1" 307
+2025-04-12 14:19:59,292 - uvicorn.access - INFO - 127.0.0.1:52826 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 200
+2025-04-12 14:19:59,799 - uvicorn.access - INFO - 127.0.0.1:52826 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 14:19:59,923 - uvicorn.access - INFO - 127.0.0.1:52826 - "GET /docs HTTP/1.1" 200
+2025-04-12 14:19:59,952 - uvicorn.access - INFO - 127.0.0.1:52826 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 14:20:00,157 - lightrag - INFO - Subgraph query successful | Node count: 50 | Edge count: 42
+2025-04-12 14:20:00,161 - uvicorn.access - INFO - 127.0.0.1:52826 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 14:20:00,194 - uvicorn.access - INFO - 127.0.0.1:52828 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 14:20:19,443 - uvicorn.access - INFO - 127.0.0.1:52900 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 200
+2025-04-12 14:20:19,445 - uvicorn.access - INFO - 127.0.0.1:52880 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 200
+2025-04-12 14:20:19,640 - uvicorn.access - INFO - 127.0.0.1:52880 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 14:20:19,685 - uvicorn.access - INFO - 127.0.0.1:52880 - "GET /webui/logo.png HTTP/1.1" 200
+2025-04-12 14:20:25,956 - uvicorn.access - INFO - 127.0.0.1:52910 - "POST /login HTTP/1.1" 200
+2025-04-12 14:20:26,059 - uvicorn.access - INFO - 127.0.0.1:52910 - "GET /docs HTTP/1.1" 200
+2025-04-12 14:20:26,089 - uvicorn.access - INFO - 127.0.0.1:52913 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 14:20:26,121 - lightrag - INFO - Subgraph query successful | Node count: 50 | Edge count: 42
+2025-04-12 14:20:26,124 - uvicorn.access - INFO - 127.0.0.1:52913 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 14:20:27,048 - uvicorn.access - INFO - 127.0.0.1:52913 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 14:21:05,708 - uvicorn.access - INFO - 127.0.0.1:52996 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 14:21:05,738 - lightrag - INFO - Subgraph query successful | Node count: 50 | Edge count: 42
+2025-04-12 14:21:05,741 - uvicorn.access - INFO - 127.0.0.1:52996 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 14:21:13,582 - lightrag - INFO - Process 6585 buidling query context...
+2025-04-12 14:21:13,582 - lightrag - INFO - Query edges: Website, Information, top_k: 10, cosine: 0.2
+2025-04-12 14:21:44,094 - lightrag - ERROR - Error in get_edge between API and NLP: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Timed out trying to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0))
+Timed out trying to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687))
+2025-04-12 14:21:44,104 - uvicorn.access - INFO - 127.0.0.1:52996 - "POST /query/stream HTTP/1.1" 500
+2025-04-12 14:22:30,152 - lightrag - INFO - Process 6585 buidling query context...
+2025-04-12 14:22:30,154 - lightrag - INFO - Query edges: aaa, top_k: 10, cosine: 0.2
+2025-04-12 14:22:30,887 - lightrag - INFO - Global query uses 14 entites, 10 relations, 2 chunks
+2025-04-12 14:22:31,745 - lightrag - INFO - Process 6585 KV writting 14 records to llm_response_cache
+2025-04-12 14:22:31,748 - uvicorn.access - INFO - 127.0.0.1:53135 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 14:22:40,491 - lightrag - INFO - Process 6585 buidling query context...
+2025-04-12 14:22:40,491 - lightrag - INFO - Query edges: Hello, top_k: 10, cosine: 0.2
+2025-04-12 14:22:41,071 - lightrag - INFO - Global query uses 14 entites, 10 relations, 2 chunks
+2025-04-12 14:22:41,988 - lightrag - INFO - Process 6585 KV writting 15 records to llm_response_cache
+2025-04-12 14:22:41,992 - uvicorn.access - INFO - 127.0.0.1:53135 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 14:23:02,612 - uvicorn.error - INFO - Shutting down
+2025-04-12 14:23:02,714 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-04-12 14:23:02,722 - uvicorn.error - INFO - Application shutdown complete.
+2025-04-12 14:23:02,722 - uvicorn.error - INFO - Finished server process [6585]
+2025-04-12 14:48:18,712 - uvicorn.error - INFO - Started server process [14574]
+2025-04-12 14:48:18,712 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:48:18,712 - lightrag - INFO - Process 14574 KV load full_docs with 2 records
+2025-04-12 14:48:18,712 - lightrag - INFO - Process 14574 KV load text_chunks with 3 records
+2025-04-12 14:48:18,713 - lightrag - INFO - Process 14574 KV load llm_response_cache with 15 records
+2025-04-12 14:48:18,713 - lightrag - INFO - Process 14574 doc status load doc_status with 2 records
+2025-04-12 14:48:18,716 - lightrag - ERROR - Chunk-entity-relation at bolt://localhost:7687 is not available
+2025-04-12 14:48:18,724 - uvicorn.error - ERROR - Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async_compat/network/_bolt_socket.py", line 199, in _connect_secure
+    await wait_for(loop.sock_connect(s, resolved_address), timeout)
+  File "/opt/anaconda3/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/asyncio/selector_events.py", line 651, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/asyncio/selector_events.py", line 691, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 61] Connect call failed ('::1', 7687, 0, 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/io/_bolt_socket.py", line 328, in connect
+    s = await cls._connect_secure(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async_compat/network/_bolt_socket.py", line 270, in _connect_secure
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 61] Connect call failed ('::1', 7687, 0, 0))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/starlette/routing.py", line 692, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/fastapi/routing.py", line 133, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/czq/code/LightRAG/lightrag/api/lightrag_server.py", line 120, in lifespan
+    await rag.initialize_storages()
+  File "/Users/czq/code/LightRAG/lightrag/lightrag.py", line 477, in initialize_storages
+    await asyncio.gather(*tasks)
+  File "/Users/czq/code/LightRAG/lightrag/kg/neo4j_impl.py", line 120, in initialize
+    raise e
+  File "/Users/czq/code/LightRAG/lightrag/kg/neo4j_impl.py", line 112, in initialize
+    result = await session.run("MATCH (n) RETURN n LIMIT 0")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/work/session.py", line 313, in run
+    await self._connect(self._config.default_access_mode)
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/work/session.py", line 136, in _connect
+    await super()._connect(
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/work/workspace.py", line 202, in _connect
+    self._connection = await self._pool.acquire(**acquire_kwargs_)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/io/_pool.py", line 665, in acquire
+    return await self._acquire(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/io/_pool.py", line 411, in _acquire
+    return await connection_creator()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/io/_pool.py", line 233, in connection_creator
+    connection = await self.opener(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/io/_pool.py", line 627, in opener
+    return await AsyncBolt.open(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/io/_bolt.py", line 369, in open
+    s, protocol_version, handshake, data = await AsyncBoltSocket.connect(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/neo4j/_async/io/_bolt_socket.py", line 376, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 61] Connect call failed ('::1', 7687, 0, 0))
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 61] Connect call failed ('127.0.0.1', 7687))
+
+2025-04-12 14:48:18,724 - uvicorn.error - ERROR - Application startup failed. Exiting.
+2025-04-12 14:48:49,358 - uvicorn.error - INFO - Started server process [14632]
+2025-04-12 14:48:49,358 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:48:49,358 - lightrag - INFO - Process 14632 KV load full_docs with 2 records
+2025-04-12 14:48:49,358 - lightrag - INFO - Process 14632 KV load text_chunks with 3 records
+2025-04-12 14:48:49,359 - lightrag - INFO - Process 14632 KV load llm_response_cache with 15 records
+2025-04-12 14:48:49,360 - lightrag - INFO - Process 14632 doc status load doc_status with 2 records
+2025-04-12 14:48:49,935 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 14:48:50,063 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 14:48:50,063 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 14:48:55,439 - uvicorn.access - INFO - 127.0.0.1:56069 - "GET / HTTP/1.1" 307
+2025-04-12 14:48:55,445 - uvicorn.access - INFO - 127.0.0.1:56069 - "GET /webui HTTP/1.1" 307
+2025-04-12 14:48:55,463 - uvicorn.access - INFO - 127.0.0.1:56069 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 304
+2025-04-12 14:48:55,464 - uvicorn.access - INFO - 127.0.0.1:56071 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 404
+2025-04-12 14:48:59,512 - uvicorn.access - INFO - 127.0.0.1:56071 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 404
+2025-04-12 14:49:00,525 - uvicorn.access - INFO - 127.0.0.1:56071 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 404
+2025-04-12 14:49:06,380 - uvicorn.access - INFO - 127.0.0.1:56096 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 404
+2025-04-12 14:49:09,398 - uvicorn.access - INFO - 127.0.0.1:56096 - "GET /webui/assets/index-CTB4Vp_z.css HTTP/1.1" 200
+2025-04-12 14:49:16,814 - uvicorn.access - INFO - 127.0.0.1:56103 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 404
+2025-04-12 14:50:25,650 - uvicorn.error - INFO - Shutting down
+2025-04-12 14:52:09,048 - uvicorn.error - INFO - Started server process [16898]
+2025-04-12 14:52:09,048 - uvicorn.error - INFO - Waiting for application startup.
+2025-04-12 14:52:09,049 - lightrag - INFO - Process 16898 KV load full_docs with 2 records
+2025-04-12 14:52:09,049 - lightrag - INFO - Process 16898 KV load text_chunks with 3 records
+2025-04-12 14:52:09,051 - lightrag - INFO - Process 16898 KV load llm_response_cache with 15 records
+2025-04-12 14:52:09,052 - lightrag - INFO - Process 16898 doc status load doc_status with 2 records
+2025-04-12 14:52:09,071 - lightrag - INFO - Connected to chunk-entity-relation at bolt://localhost:7687
+2025-04-12 14:52:09,081 - uvicorn.error - INFO - Application startup complete.
+2025-04-12 14:52:09,081 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2025-04-12 14:52:11,472 - uvicorn.access - INFO - 127.0.0.1:57062 - "GET /webui/assets/index-DMQcwCia.js HTTP/1.1" 200
+2025-04-12 14:52:12,128 - uvicorn.access - INFO - 127.0.0.1:57062 - "GET /auth-status HTTP/1.1" 200
+2025-04-12 14:52:12,465 - uvicorn.access - INFO - 127.0.0.1:57062 - "GET /docs HTTP/1.1" 200
+2025-04-12 14:52:12,637 - uvicorn.access - INFO - 127.0.0.1:57062 - "GET /openapi.json HTTP/1.1" 200
+2025-04-12 14:52:26,461 - lightrag - INFO - Process 16898 KV writting 0 records to text_chunks
+2025-04-12 14:52:26,463 - lightrag - INFO - Process 16898 drop text_chunks
+2025-04-12 14:52:26,464 - lightrag - INFO - Process 16898 KV writting 0 records to full_docs
+2025-04-12 14:52:26,465 - lightrag - INFO - Process 16898 drop full_docs
+2025-04-12 14:52:26,466 - lightrag - INFO - Process 16898 drop entities(file:/Users/czq/code/归档/rag_storage/vdb_entities.json)
+2025-04-12 14:52:26,468 - lightrag - INFO - Process 16898 drop relationships(file:/Users/czq/code/归档/rag_storage/vdb_relationships.json)
+2025-04-12 14:52:26,469 - lightrag - INFO - Process 16898 drop chunks(file:/Users/czq/code/归档/rag_storage/vdb_chunks.json)
+2025-04-12 14:52:26,471 - lightrag - INFO - Process 16898 doc status writting 0 records to doc_status
+2025-04-12 14:52:26,472 - lightrag - INFO - Process 16898 drop doc_status
+2025-04-12 14:52:26,679 - lightrag - INFO - Process 16898 drop Neo4j database chunk-entity-relation
+2025-04-12 14:52:26,680 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 14:52:26,680 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 14:52:26,680 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 14:52:26,680 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 14:52:26,680 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 14:52:26,680 - lightrag - INFO - Successfully dropped Neo4JStorage
+2025-04-12 14:52:26,680 - lightrag - INFO - Successfully dropped JsonDocStatusStorage
+2025-04-12 14:52:26,681 - uvicorn.access - INFO - 127.0.0.1:57062 - "DELETE /documents HTTP/1.1" 200
+2025-04-12 14:52:26,691 - lightrag - INFO - Cleared all cache
+2025-04-12 14:52:26,691 - lightrag - INFO - Process 16898 KV writting 0 records to llm_response_cache
+2025-04-12 14:52:26,693 - uvicorn.access - INFO - 127.0.0.1:57062 - "POST /documents/clear_cache HTTP/1.1" 200
+2025-04-12 14:54:27,489 - uvicorn.access - INFO - 127.0.0.1:57419 - "POST /documents/upload HTTP/1.1" 200
+2025-04-12 14:54:27,607 - lightrag - ERROR - No content could be extracted from file: 手机号比对.docx
+2025-04-12 14:55:09,274 - lightrag - INFO - Process 16898 KV writting 0 records to text_chunks
+2025-04-12 14:55:09,276 - lightrag - INFO - Process 16898 drop text_chunks
+2025-04-12 14:55:09,277 - lightrag - INFO - Process 16898 KV writting 0 records to full_docs
+2025-04-12 14:55:09,277 - lightrag - INFO - Process 16898 drop full_docs
+2025-04-12 14:55:09,278 - lightrag - INFO - Process 16898 drop entities(file:/Users/czq/code/归档/rag_storage/vdb_entities.json)
+2025-04-12 14:55:09,278 - lightrag - INFO - Process 16898 drop relationships(file:/Users/czq/code/归档/rag_storage/vdb_relationships.json)
+2025-04-12 14:55:09,278 - lightrag - INFO - Process 16898 drop chunks(file:/Users/czq/code/归档/rag_storage/vdb_chunks.json)
+2025-04-12 14:55:09,279 - lightrag - INFO - Process 16898 doc status writting 0 records to doc_status
+2025-04-12 14:55:09,280 - lightrag - INFO - Process 16898 drop doc_status
+2025-04-12 14:55:09,351 - lightrag - INFO - Process 16898 drop Neo4j database chunk-entity-relation
+2025-04-12 14:55:09,351 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 14:55:09,351 - lightrag - INFO - Successfully dropped JsonKVStorage
+2025-04-12 14:55:09,351 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 14:55:09,351 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 14:55:09,351 - lightrag - INFO - Successfully dropped NanoVectorDBStorage
+2025-04-12 14:55:09,351 - lightrag - INFO - Successfully dropped Neo4JStorage
+2025-04-12 14:55:09,351 - lightrag - INFO - Successfully dropped JsonDocStatusStorage
+2025-04-12 14:55:09,352 - uvicorn.access - INFO - 127.0.0.1:57419 - "DELETE /documents HTTP/1.1" 200
+2025-04-12 14:55:09,357 - lightrag - INFO - Cleared all cache
+2025-04-12 14:55:09,357 - uvicorn.access - INFO - 127.0.0.1:57419 - "POST /documents/clear_cache HTTP/1.1" 200
+2025-04-12 14:55:12,691 - uvicorn.access - INFO - 127.0.0.1:57419 - "POST /documents/upload HTTP/1.1" 200
+2025-04-12 14:55:12,780 - lightrag - INFO - Process 16898 doc status writting 1 records to doc_status
+2025-04-12 14:55:12,780 - lightrag - INFO - Stored 1 new unique documents
+2025-04-12 14:55:12,780 - lightrag - INFO - Successfully fetched and enqueued file: 手机号比对.docx
+2025-04-12 14:55:12,780 - lightrag - INFO - Processing 1 document(s) in 1 batches
+2025-04-12 14:55:12,780 - lightrag - INFO - Start processing batch 1 of 1.
+2025-04-12 14:55:12,932 - lightrag - INFO - Process 16898 doc status writting 1 records to doc_status
+2025-04-12 14:56:11,669 - lightrag - INFO - Saving LLM cache for f98164f26f18449def79efde7dc18c24
+2025-04-12 14:56:14,836 - lightrag - INFO - Saving LLM cache for 04e66a2fe79888ab15d58fdd3df0df77
+2025-04-12 14:56:35,771 - lightrag - INFO - Saving LLM cache for 5333c7cb4aca27abe95ce9ea78cd3228
+2025-04-12 14:57:01,730 - lightrag - INFO - Saving LLM cache for 5d82bc99bda743a43c023495be6d26da
+2025-04-12 14:57:27,306 - lightrag - INFO - Saving LLM cache for 27ed4dec9f23ac7f81b0dd2aedb75c18
+2025-04-12 14:57:33,005 - lightrag - INFO - Saving LLM cache for 94f8101d7f02baea10518b09533cd57b
+2025-04-12 14:57:54,490 - lightrag - INFO - Saving LLM cache for cb56525fd4bc7f0645daf975add261e3
+2025-04-12 14:58:03,175 - lightrag - INFO - Saving LLM cache for 25ca7cbaf4f9005b5dc5ade9b708a7f9
+2025-04-12 14:58:42,490 - lightrag - INFO - Saving LLM cache for e0f2e5eb98cfbb9c7053d5cd38d8c9a8
+2025-04-12 14:58:45,050 - lightrag - INFO - Saving LLM cache for 546401538e0fe6e19f65a3c3fe0eb268
+2025-04-12 14:58:56,009 - lightrag - INFO - Saving LLM cache for 80c73d827cf3b4bf3064616e9b00be1c
+2025-04-12 14:59:21,733 - lightrag - INFO - Saving LLM cache for 83f605ece9e499b1bef2900508783def
+2025-04-12 14:59:49,358 - lightrag - INFO - Saving LLM cache for 3403bd425e0d9681adaddb216c5d778e
+2025-04-12 15:00:07,550 - lightrag - INFO - Saving LLM cache for 5c772477a8a108b77dbd3dae5e7a4da3
+2025-04-12 15:00:15,740 - lightrag - INFO - Saving LLM cache for 7a30dbac7f97850a43321c0d77bc569a
+2025-04-12 15:00:52,252 - lightrag - INFO - Saving LLM cache for 87ee92cb41d7de4bf9775e279782de31
+2025-04-12 15:01:21,110 - lightrag - INFO - Saving LLM cache for 749f7a6132a69aabe372748e08837131
+2025-04-12 15:01:21,112 - lightrag - INFO -   Chk 1/16: extracted 19 Ent + 13 Rel (deduplicated)
+2025-04-12 15:01:53,266 - lightrag - INFO - Saving LLM cache for cd8855a175de5f4f05ff69e9ec0c02ff
+2025-04-12 15:01:53,267 - lightrag - INFO -   Chk 2/16: extracted 26 Ent + 14 Rel (deduplicated)
+2025-04-12 15:01:53,404 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:01:53,582 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:02:47,028 - lightrag - INFO - Saving LLM cache for 21d6592a3cbb5eb6549b4c37a36bf025
+2025-04-12 15:02:47,030 - lightrag - INFO -   Chk 3/16: extracted 27 Ent + 12 Rel (deduplicated)
+2025-04-12 15:02:47,100 - lightrag - INFO - Merging entity: 丽海花园1期海贝幼儿园
+2025-04-12 15:02:47,123 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:02:47,132 - lightrag - INFO - Merging entity: 高圣思
+2025-04-12 15:02:47,214 - lightrag - INFO - Merging entity: 郭文
+2025-04-12 15:02:47,218 - lightrag - INFO - Merging entity: 水秀广场
+2025-04-12 15:02:47,225 - lightrag - INFO - Merging entity: 韩迎春
+2025-04-12 15:02:47,315 - lightrag - INFO - Merging edge::: 青岛市公安局海岸警察支队中韩派出所 - 高圣思
+2025-04-12 15:02:47,494 - lightrag - INFO - Merging edge::: 水秀广场 - 郭文
+2025-04-12 15:03:06,364 - lightrag - INFO - Saving LLM cache for f2e5693ecb442c1a3c3146538da20eaa
+2025-04-12 15:03:06,365 - lightrag - INFO -   Chk 4/16: extracted 25 Ent + 9 Rel (deduplicated)
+2025-04-12 15:03:06,499 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:03:06,515 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:03:06,544 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:03:45,118 - lightrag - INFO - Saving LLM cache for 7f840dbcabc154317d0f28d4398d9639
+2025-04-12 15:03:45,120 - lightrag - INFO -   Chk 5/16: extracted 23 Ent + 7 Rel (deduplicated)
+2025-04-12 15:03:45,216 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:04:41,817 - lightrag - INFO - Saving LLM cache for 7f40fede774d8d22df20e2b25539fb4d
+2025-04-12 15:04:41,819 - lightrag - INFO -   Chk 6/16: extracted 19 Ent + 6 Rel (deduplicated)
+2025-04-12 15:04:41,889 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:04:41,914 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局辽阳东路治安派出所
+2025-04-12 15:04:41,921 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:04:41,929 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局埠东治安派出所
+2025-04-12 15:04:41,935 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:04:50,073 - lightrag - INFO - Saving LLM cache for daf44be6ca7b99b49264977e2106eba2
+2025-04-12 15:04:50,075 - lightrag - INFO -   Chk 7/16: extracted 24 Ent + 14 Rel (deduplicated)
+2025-04-12 15:04:50,181 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:04:50,188 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:04:50,248 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:04:50,359 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:04:50,385 - lightrag - INFO - Merging entity: 海信北姜家园12号楼2单元702户
+2025-04-12 15:04:50,390 - lightrag - INFO - Merging entity: 丁洋
+2025-04-12 15:04:50,397 - lightrag - INFO - Merging entity: 海尔路61号天宝国际
+2025-04-12 15:04:50,401 - lightrag - INFO - Merging entity: 刑事警情
+2025-04-12 15:04:50,620 - lightrag - INFO - Merging edge::: 丁洋 - 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:04:50,649 - lightrag - INFO - Merging edge::: 青岛市公安局海岸警察支队沙子口派出所 - 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:04:50,675 - lightrag - INFO - Merging edge::: 青岛市公安局崂山分局中韩派出所 - 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:04:51,765 - lightrag - INFO - Saving LLM cache for 9198a80aa85c646846c082814b0cbf6d
+2025-04-12 15:04:51,768 - lightrag - INFO -   Chk 8/16: extracted 25 Ent + 10 Rel (deduplicated)
+2025-04-12 15:04:52,537 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:04:52,546 - lightrag - INFO - Merging entity: 李
+2025-04-12 15:04:52,552 - lightrag - INFO - Merging entity: 香港东路文苑19号楼402户
+2025-04-12 15:04:52,561 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:04:52,582 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:04:52,633 - lightrag - INFO - Merging entity: 李松枝
+2025-04-12 15:04:52,637 - lightrag - INFO - Merging entity: 鲁信含章东门
+2025-04-12 15:04:52,641 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局辽阳东路治安派出所
+2025-04-12 15:04:52,647 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:04:52,651 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局埠东治安派出所
+2025-04-12 15:04:52,655 - lightrag - INFO - Merging entity: 刑事警情
+2025-04-12 15:04:52,661 - lightrag - INFO - Merging entity: 治安警情
+2025-04-12 15:04:52,723 - lightrag - INFO - Merging edge::: 李松枝 - 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:04:52,733 - lightrag - INFO - Merging edge::: 李光林 - 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:05:07,330 - lightrag - INFO - Saving LLM cache for d320eeedb95a4cb54aed88638dd6b8f3
+2025-04-12 15:05:07,331 - lightrag - INFO -   Chk 9/16: extracted 33 Ent + 15 Rel (deduplicated)
+2025-04-12 15:05:07,420 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:05:07,431 - lightrag - INFO - Merging entity: 刘福龙
+2025-04-12 15:05:07,437 - lightrag - INFO - Merging entity: 香港东路B2出口附近
+2025-04-12 15:05:07,454 - lightrag - INFO - Merging entity: 刘福荣
+2025-04-12 15:05:07,460 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:05:07,520 - lightrag - INFO - Merging entity: 陆焱
+2025-04-12 15:05:07,523 - lightrag - INFO - Merging entity: 科技大学明德楼624
+2025-04-12 15:05:07,527 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局辽阳东路治安派出所
+2025-04-12 15:05:07,531 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:06:04,759 - lightrag - INFO - Saving LLM cache for ab403e80832ddb34ab6f902bfad43e90
+2025-04-12 15:06:04,760 - lightrag - INFO -   Chk 10/16: extracted 29 Ent + 8 Rel (deduplicated)
+2025-04-12 15:06:04,829 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:06:04,910 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:06:04,918 - lightrag - INFO - Merging entity: 李冲
+2025-04-12 15:06:05,011 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:06:05,015 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:06:05,020 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局辽阳东路治安派出所
+2025-04-12 15:06:05,026 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局埠东治安派出所
+2025-04-12 15:06:21,412 - lightrag - INFO - Saving LLM cache for 8c7d02e149e0f4a94468efeb2b5db541
+2025-04-12 15:06:21,413 - lightrag - INFO -   Chk 11/16: extracted 19 Ent + 11 Rel (deduplicated)
+2025-04-12 15:06:21,525 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局北宅派出所
+2025-04-12 15:06:21,586 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:06:21,591 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:06:21,596 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:06:21,600 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:06:34,169 - lightrag - INFO - Saving LLM cache for 5598c2f6013f8a55ad7263e6e61bb9e3
+2025-04-12 15:06:34,171 - lightrag - INFO -   Chk 12/16: extracted 27 Ent + 19 Rel (deduplicated)
+2025-04-12 15:06:34,270 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:06:34,282 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:06:34,287 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局埠东治安派出所
+2025-04-12 15:06:34,295 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局北宅派出所
+2025-04-12 15:06:34,329 - lightrag - INFO - Merging entity: 王大奎
+2025-04-12 15:06:34,340 - lightrag - INFO - Merging entity: 张瑞芹
+2025-04-12 15:07:12,953 - lightrag - INFO - Saving LLM cache for 3e3c4cc611acf31720207be27212476e
+2025-04-12 15:07:12,956 - lightrag - INFO -   Chk 13/16: extracted 23 Ent + 10 Rel (deduplicated)
+2025-04-12 15:07:12,994 - lightrag - INFO - Merging entity: 刘琼雯
+2025-04-12 15:07:13,001 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局埠东治安派出所
+2025-04-12 15:07:13,016 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局辽阳东路治安派出所
+2025-04-12 15:07:13,037 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:07:13,045 - lightrag - INFO - Merging entity: 付玉娥
+2025-04-12 15:07:13,063 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:07:13,105 - lightrag - INFO - Merging entity: 牟家新苑12号楼菜鸟驿站
+2025-04-12 15:07:13,109 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队沙子口派出所
+2025-04-12 15:07:22,284 - lightrag - INFO - Saving LLM cache for e8c79c3f294caccf94fa4018d393ef15
+2025-04-12 15:07:22,285 - lightrag - INFO -   Chk 14/16: extracted 19 Ent + 10 Rel (deduplicated)
+2025-04-12 15:07:22,311 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:07:22,343 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:07:22,364 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局辽阳东路治安派出所
+2025-04-12 15:07:22,371 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:08:32,420 - lightrag - INFO - Saving LLM cache for 775fc213c8ba00cda2a30e680227be23
+2025-04-12 15:08:32,422 - lightrag - INFO -   Chk 15/16: extracted 37 Ent + 18 Rel (deduplicated)
+2025-04-12 15:08:32,461 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:08:32,463 - lightrag - INFO - Use LLM to re-summary description...
+2025-04-12 15:08:39,372 - lightrag - INFO - Saving LLM cache for 2ce31d0d673bb44beb6918cbf22362b2
+2025-04-12 15:08:39,414 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:08:39,430 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:08:39,444 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队中韩派出所
+2025-04-12 15:08:39,454 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局北宅派出所
+2025-04-12 15:08:39,459 - lightrag - INFO - Merging entity: 林玉章
+2025-04-12 15:08:39,476 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局崂山风景区治安派出所
+2025-04-12 15:08:39,492 - lightrag - INFO - Merging entity: 报案人
+2025-04-12 15:08:44,673 - lightrag - INFO - Saving LLM cache for 3f1a723c3bcc7219389ff6ba7a382523
+2025-04-12 15:08:44,674 - lightrag - INFO -   Chk 16/16: extracted 35 Ent + 23 Rel (deduplicated)
+2025-04-12 15:08:44,723 - lightrag - INFO - Merging entity: 王大奎
+2025-04-12 15:08:44,745 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:08:44,761 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局南窑派出所
+2025-04-12 15:08:44,781 - lightrag - INFO - Merging entity: 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:08:44,789 - lightrag - INFO - Merging entity: 陈志峰
+2025-04-12 15:08:44,797 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局埠东治安派出所
+2025-04-12 15:08:44,817 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局辽阳东路治安派出所
+2025-04-12 15:08:44,820 - lightrag - INFO - Merging entity: 崂山青医门诊大厅
+2025-04-12 15:08:44,824 - lightrag - INFO - Merging entity: 盛海燕
+2025-04-12 15:08:44,827 - lightrag - INFO - Merging entity: 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:08:44,871 - lightrag - INFO - Merging edge::: 王大奎 - 青岛市公安局崂山分局中韩派出所
+2025-04-12 15:08:44,891 - lightrag - INFO - Merging edge::: 青岛市公安局崂山分局中韩派出所 - 青岛市公安局崂山分局麦岛派出所
+2025-04-12 15:08:44,938 - lightrag - INFO - Merging edge::: 陈志峰 - 青岛市公安局海岸警察支队王哥庄派出所
+2025-04-12 15:08:47,240 - lightrag - INFO - Extracted 410 entities + 199 relationships (total)
+2025-04-12 15:08:47,240 - lightrag - INFO - Process 16898 doc status writting 1 records to doc_status
+2025-04-12 15:08:47,241 - lightrag - INFO - Process 16898 KV writting 1 records to full_docs
+2025-04-12 15:08:47,242 - lightrag - INFO - Process 16898 KV writting 16 records to text_chunks
+2025-04-12 15:08:47,242 - lightrag - INFO - Process 16898 KV writting 33 records to llm_response_cache
+2025-04-12 15:08:47,256 - lightrag - INFO - In memory DB persist to disk
+2025-04-12 15:08:47,256 - lightrag - INFO - Completed batch 1 of 1.
+2025-04-12 15:08:47,256 - lightrag - INFO - Document processing pipeline completed
+2025-04-12 15:09:55,439 - uvicorn.access - INFO - 127.0.0.1:57534 - "GET /graph/label/list HTTP/1.1" 200
+2025-04-12 15:09:55,630 - lightrag - INFO - Subgraph query successful | Node count: 328 | Edge count: 189
+2025-04-12 15:09:55,638 - uvicorn.access - INFO - 127.0.0.1:57534 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2025-04-12 15:12:03,544 - uvicorn.access - INFO - 127.0.0.1:58584 - "POST /query/stream HTTP/1.1" 422
+2025-04-12 15:12:51,569 - lightrag - INFO - Process 16898 buidling query context...
+2025-04-12 15:12:51,571 - lightrag - INFO - Query nodes: 最近, 事情, top_k: 10, cosine: 0.2
+2025-04-12 15:12:51,638 - lightrag - INFO - Query edges: 王文辉, 投诉, top_k: 10, cosine: 0.2
+2025-04-12 15:12:52,503 - lightrag - INFO - Local query uses 10 entites, 7 relations, 3 chunks
+2025-04-12 15:13:22,170 - lightrag - ERROR - Error in get_edge between 丁洋 and 海尔路61号天宝国际: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Timed out trying to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0))
+Timed out trying to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687))
+2025-04-12 15:13:22,172 - lightrag - ERROR - Error in get_edge between 王玉刚 and 青岛市公安局崂山分局中韩派出所: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Timed out trying to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0))
+Timed out trying to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687))
+2025-04-12 15:13:22,172 - lightrag - ERROR - Error getting node degree for 保险单修改: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Timed out trying to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0))
+Timed out trying to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687))
+2025-04-12 15:13:22,190 - uvicorn.access - INFO - 127.0.0.1:58654 - "POST /query/stream HTTP/1.1" 500
+2025-04-12 15:13:22,195 - lightrag - ERROR - Error in get_edge between 中韩海昇大酒店附近出租房 and 王辉: Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):
+Timed out trying to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0))
+Timed out trying to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687))
+2025-04-12 15:14:07,079 - lightrag - INFO - Process 16898 buidling query context...
+2025-04-12 15:14:07,081 - lightrag - INFO - Query nodes: 最近, 事情, top_k: 10, cosine: 0.2
+2025-04-12 15:14:07,145 - lightrag - INFO - Query edges: 王文辉, 投诉, top_k: 10, cosine: 0.2
+2025-04-12 15:14:09,440 - lightrag - INFO - Global query uses 19 entites, 10 relations, 3 chunks
+2025-04-12 15:14:09,513 - lightrag - INFO - Local query uses 10 entites, 7 relations, 3 chunks
+2025-04-12 15:14:11,264 - lightrag - INFO - Process 16898 KV writting 34 records to llm_response_cache
+2025-04-12 15:14:11,277 - uvicorn.access - INFO - 127.0.0.1:58774 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 15:14:40,369 - lightrag - INFO - Process 16898 buidling query context...
+2025-04-12 15:14:40,371 - lightrag - INFO - Query nodes: 王文辉, 保险公司, 保险单, 业务内容, 手机号比对.docx, top_k: 10, cosine: 0.2
+2025-04-12 15:14:40,438 - lightrag - INFO - Query edges: 投诉, 保险合同变更, 业务增加, top_k: 10, cosine: 0.2
+2025-04-12 15:14:41,016 - lightrag - INFO - Global query uses 20 entites, 10 relations, 3 chunks
+2025-04-12 15:14:41,090 - lightrag - INFO - Local query uses 10 entites, 7 relations, 3 chunks
+2025-04-12 15:14:43,105 - lightrag - INFO - Process 16898 KV writting 35 records to llm_response_cache
+2025-04-12 15:14:43,114 - uvicorn.access - INFO - 127.0.0.1:58867 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 15:15:07,280 - lightrag - INFO - Process 16898 buidling query context...
+2025-04-12 15:15:07,280 - lightrag - INFO - Query nodes: 王文辉, 保险公司, 业务增加, 金雪茹, 格润内泽姆新水务有限公司, 茅台酒, 假酒鉴定, 专家鉴定, top_k: 10, cosine: 0.2
+2025-04-12 15:15:07,347 - lightrag - INFO - Query edges: 投诉处理, 保险合同变更, 假酒事件, top_k: 10, cosine: 0.2
+2025-04-12 15:15:08,141 - lightrag - INFO - Local query uses 10 entites, 8 relations, 3 chunks
+2025-04-12 15:15:08,148 - lightrag - INFO - Global query uses 16 entites, 10 relations, 3 chunks
+2025-04-12 15:15:09,830 - lightrag - INFO - Process 16898 KV writting 36 records to llm_response_cache
+2025-04-12 15:15:09,840 - uvicorn.access - INFO - 127.0.0.1:58901 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 15:16:49,923 - uvicorn.access - INFO - 127.0.0.1:59062 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 15:17:33,891 - uvicorn.access - INFO - 127.0.0.1:59103 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 15:18:44,874 - lightrag - INFO - Process 16898 KV writting 37 records to llm_response_cache
+2025-04-12 15:18:44,885 - uvicorn.access - INFO - 127.0.0.1:59158 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 15:20:00,953 - lightrag - INFO - Process 16898 buidling query context...
+2025-04-12 15:20:00,953 - lightrag - INFO - Query edges: 李松芝, 家庭关系, top_k: 10, cosine: 0.2
+2025-04-12 15:20:01,589 - lightrag - INFO - Global query uses 15 entites, 10 relations, 3 chunks
+2025-04-12 15:20:05,801 - lightrag - INFO - Process 16898 KV writting 38 records to llm_response_cache
+2025-04-12 15:20:05,810 - uvicorn.access - INFO - 127.0.0.1:59240 - "POST /query/stream HTTP/1.1" 200
+2025-04-12 15:20:38,194 - lightrag - INFO - Process 16898 buidling query context...
+2025-04-12 15:20:38,195 - lightrag - INFO - Query edges: 李松芝, 老公失踪, 身份证号查询, top_k: 10, cosine: 0.2
+2025-04-12 15:20:38,937 - lightrag - INFO - Global query uses 17 entites, 10 relations, 3 chunks
+2025-04-12 15:20:40,278 - lightrag - INFO - Process 16898 KV writting 39 records to llm_response_cache
+2025-04-12 15:20:40,289 - uvicorn.access - INFO - 127.0.0.1:59291 - "POST /query/stream HTTP/1.1" 200
